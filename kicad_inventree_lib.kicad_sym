@@ -493,7 +493,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -30.48 -58.42 0)
+				(at -30.48 -60.96 0)
 				(length 7.62)
 				(name "VINCOM"
 					(effects
@@ -529,7 +529,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -30.48 -83.82 0)
+				(at -30.48 -86.36 0)
 				(length 7.62)
 				(name "VBIAS-"
 					(effects
@@ -601,7 +601,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -30.48 -66.04 0)
+				(at 30.48 -38.1 180)
 				(length 7.62)
 				(name "DIN"
 					(effects
@@ -619,7 +619,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -30.48 -78.74 0)
+				(at 30.48 -40.64 180)
 				(length 7.62)
 				(name "SCLK"
 					(effects
@@ -637,7 +637,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -30.48 -63.5 0)
+				(at 30.48 -35.56 180)
 				(length 7.62)
 				(name "CS"
 					(effects
@@ -655,7 +655,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -30.48 -71.12 0)
+				(at -30.48 -73.66 0)
 				(length 7.62)
 				(name "ERROR"
 					(effects
@@ -673,7 +673,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -30.48 -81.28 0)
+				(at -30.48 -83.82 0)
 				(length 7.62)
 				(name "SYNC"
 					(effects
@@ -727,7 +727,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 30.48 -73.66 180)
+				(at 7.62 -99.06 90)
 				(length 7.62)
 				(name "DGND"
 					(effects
@@ -799,7 +799,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -30.48 -76.2 0)
+				(at -30.48 -78.74 0)
 				(length 7.62)
 				(name "GRO0"
 					(effects
@@ -817,7 +817,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -30.48 -48.26 0)
+				(at -30.48 -50.8 0)
 				(length 7.62)
 				(name "VIN4"
 					(effects
@@ -835,7 +835,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -30.48 -50.8 0)
+				(at -30.48 -53.34 0)
 				(length 7.62)
 				(name "VIN5"
 					(effects
@@ -853,7 +853,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -30.48 -53.34 0)
+				(at -30.48 -55.88 0)
 				(length 7.62)
 				(name "VIN6"
 					(effects
@@ -871,7 +871,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -30.48 -55.88 0)
+				(at -30.48 -58.42 0)
 				(length 7.62)
 				(name "VIN7"
 					(effects
@@ -1051,7 +1051,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -30.48 -73.66 0)
+				(at -30.48 -76.2 0)
 				(length 7.62)
 				(name "GPO1"
 					(effects
@@ -1087,9 +1087,9 @@
 				)
 			)
 			(pin unspecified line
-				(at -30.48 -86.36 0)
+				(at -30.48 -45.72 0)
 				(length 7.62)
-				(name "VION2"
+				(name "VIN2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1141,7 +1141,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -30.48 -45.72 0)
+				(at -30.48 -48.26 0)
 				(length 7.62)
 				(name "VIN3"
 					(effects
@@ -1159,7 +1159,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 30.48 -22.86 180)
+				(at -30.48 -66.04 0)
 				(length 7.62)
 				(name "REFOUT"
 					(effects
@@ -1177,7 +1177,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 30.48 -50.8 180)
+				(at -30.48 -68.58 0)
 				(length 7.62)
 				(name "REGCAPA"
 					(effects
@@ -1213,7 +1213,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -2.54 -7.62 270)
+				(at -10.16 -7.62 270)
 				(length 7.62)
 				(name "AVDD"
 					(effects
