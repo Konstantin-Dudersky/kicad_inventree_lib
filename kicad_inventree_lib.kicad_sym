@@ -372,7 +372,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 0 4.064 0)
+			(at -14.732 2.286 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -380,7 +380,7 @@
 			)
 		)
 		(property "Value" "AD4111BCPZ"
-			(at 0 1.524 0)
+			(at 0 -34.798 90)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -388,7 +388,7 @@
 			)
 		)
 		(property "Footprint" "kicad_inventree_lib:AD4111BCPZ_ADI"
-			(at 26.416 -12.446 0)
+			(at 26.416 2.794 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -398,7 +398,7 @@
 			)
 		)
 		(property "Datasheet" "http://inventree.network/part/73/"
-			(at 26.162 -12.446 0)
+			(at 26.162 2.794 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -408,7 +408,7 @@
 			)
 		)
 		(property "Description" ""
-			(at -30.48 -22.86 0)
+			(at -22.86 -7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -417,7 +417,7 @@
 			)
 		)
 		(property "part_ipn" "AD4111BCPZ"
-			(at 26.416 -12.446 0)
+			(at 26.416 2.794 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -446,7 +446,7 @@
 		(symbol "AD4111BCPZ_1_1"
 			(polyline
 				(pts
-					(xy -22.86 -91.44) (xy 22.86 -91.44)
+					(xy -15.24 -68.58) (xy 15.24 -68.58)
 				)
 				(stroke
 					(width 0.127)
@@ -458,7 +458,7 @@
 			)
 			(polyline
 				(pts
-					(xy -22.86 -15.24) (xy -22.86 -91.44)
+					(xy -15.24 0) (xy -15.24 -68.58)
 				)
 				(stroke
 					(width 0.127)
@@ -470,7 +470,7 @@
 			)
 			(polyline
 				(pts
-					(xy 22.86 -91.44) (xy 22.86 -15.24)
+					(xy 15.24 -68.58) (xy 15.24 0)
 				)
 				(stroke
 					(width 0.127)
@@ -482,7 +482,7 @@
 			)
 			(polyline
 				(pts
-					(xy 22.86 -15.24) (xy -22.86 -15.24)
+					(xy 15.24 0) (xy -15.24 0)
 				)
 				(stroke
 					(width 0.127)
@@ -493,7 +493,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -30.48 -60.96 0)
+				(at -22.86 -45.72 0)
 				(length 7.62)
 				(name "VINCOM"
 					(effects
@@ -511,7 +511,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 30.48 -83.82 180)
+				(at 22.86 -45.72 180)
 				(length 7.62)
 				(name "DNC"
 					(effects
@@ -529,7 +529,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -30.48 -86.36 0)
+				(at -22.86 -63.5 0)
 				(length 7.62)
 				(name "VBIAS-"
 					(effects
@@ -547,7 +547,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 30.48 -66.04 180)
+				(at 22.86 -27.94 180)
 				(length 7.62)
 				(name "XTAL1"
 					(effects
@@ -565,7 +565,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 30.48 -68.58 180)
+				(at 22.86 -30.48 180)
 				(length 7.62)
 				(name "XTAL2/CLKIO"
 					(effects
@@ -583,7 +583,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 30.48 -20.32 180)
+				(at 22.86 -10.16 180)
 				(length 7.62)
 				(name "DOUT/RDY"
 					(effects
@@ -601,7 +601,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 30.48 -38.1 180)
+				(at 22.86 -2.54 180)
 				(length 7.62)
 				(name "DIN"
 					(effects
@@ -619,7 +619,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 30.48 -40.64 180)
+				(at 22.86 -5.08 180)
 				(length 7.62)
 				(name "SCLK"
 					(effects
@@ -637,7 +637,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 30.48 -35.56 180)
+				(at 22.86 -7.62 180)
 				(length 7.62)
 				(name "CS"
 					(effects
@@ -655,7 +655,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -30.48 -73.66 0)
+				(at 22.86 -35.56 180)
 				(length 7.62)
 				(name "ERROR"
 					(effects
@@ -673,7 +673,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -30.48 -83.82 0)
+				(at 22.86 -15.24 180)
 				(length 7.62)
 				(name "SYNC"
 					(effects
@@ -691,7 +691,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -30.48 -40.64 0)
+				(at -22.86 -25.4 0)
 				(length 7.62)
 				(name "VIN0"
 					(effects
@@ -709,7 +709,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 30.48 -78.74 180)
+				(at 5.08 7.62 270)
 				(length 7.62)
 				(name "IOVDD"
 					(effects
@@ -727,7 +727,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 7.62 -99.06 90)
+				(at 2.54 -76.2 90)
 				(length 7.62)
 				(name "DGND"
 					(effects
@@ -745,7 +745,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 30.48 -53.34 180)
+				(at 22.86 -50.8 180)
 				(length 7.62)
 				(name "REGCAPD"
 					(effects
@@ -763,7 +763,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 30.48 -27.94 180)
+				(at -22.86 -48.26 0)
 				(length 7.62)
 				(name "COMPA"
 					(effects
@@ -781,7 +781,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 30.48 -30.48 180)
+				(at -22.86 -50.8 0)
 				(length 7.62)
 				(name "COMPB"
 					(effects
@@ -799,9 +799,9 @@
 				)
 			)
 			(pin unspecified line
-				(at -30.48 -78.74 0)
+				(at 22.86 -38.1 180)
 				(length 7.62)
-				(name "GRO0"
+				(name "GPO0"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -817,7 +817,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -30.48 -50.8 0)
+				(at -22.86 -35.56 0)
 				(length 7.62)
 				(name "VIN4"
 					(effects
@@ -835,7 +835,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -30.48 -53.34 0)
+				(at -22.86 -38.1 0)
 				(length 7.62)
 				(name "VIN5"
 					(effects
@@ -853,7 +853,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -30.48 -55.88 0)
+				(at -22.86 -40.64 0)
 				(length 7.62)
 				(name "VIN6"
 					(effects
@@ -871,7 +871,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -30.48 -58.42 0)
+				(at -22.86 -43.18 0)
 				(length 7.62)
 				(name "VIN7"
 					(effects
@@ -889,7 +889,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -30.48 -43.18 0)
+				(at -22.86 -27.94 0)
 				(length 7.62)
 				(name "VIN1"
 					(effects
@@ -907,7 +907,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -30.48 -35.56 0)
+				(at -22.86 -20.32 0)
 				(length 7.62)
 				(name "IIN3-"
 					(effects
@@ -925,7 +925,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -30.48 -30.48 0)
+				(at -22.86 -15.24 0)
 				(length 7.62)
 				(name "IIN2-"
 					(effects
@@ -943,7 +943,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -30.48 -25.4 0)
+				(at -22.86 -10.16 0)
 				(length 7.62)
 				(name "IIN1-"
 					(effects
@@ -961,7 +961,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -30.48 -20.32 0)
+				(at -22.86 -5.08 0)
 				(length 7.62)
 				(name "IIN0-"
 					(effects
@@ -979,7 +979,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -30.48 -17.78 0)
+				(at -22.86 -2.54 0)
 				(length 7.62)
 				(name "IIN0+"
 					(effects
@@ -997,7 +997,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -30.48 -22.86 0)
+				(at -22.86 -7.62 0)
 				(length 7.62)
 				(name "IIN1+"
 					(effects
@@ -1015,7 +1015,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -30.48 -27.94 0)
+				(at -22.86 -12.7 0)
 				(length 7.62)
 				(name "IIN2+"
 					(effects
@@ -1033,7 +1033,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -30.48 -33.02 0)
+				(at -22.86 -17.78 0)
 				(length 7.62)
 				(name "IIN3+"
 					(effects
@@ -1051,7 +1051,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -30.48 -76.2 0)
+				(at 22.86 -40.64 180)
 				(length 7.62)
 				(name "GPO1"
 					(effects
@@ -1069,7 +1069,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 30.48 -43.18 180)
+				(at 22.86 -20.32 180)
 				(length 7.62)
 				(name "REF-"
 					(effects
@@ -1087,7 +1087,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -30.48 -45.72 0)
+				(at -22.86 -30.48 0)
 				(length 7.62)
 				(name "VIN2"
 					(effects
@@ -1105,7 +1105,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 30.48 -45.72 180)
+				(at 22.86 -22.86 180)
 				(length 7.62)
 				(name "REF+"
 					(effects
@@ -1123,7 +1123,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -5.08 -99.06 90)
+				(at -5.08 -76.2 90)
 				(length 7.62)
 				(name "EPAD"
 					(effects
@@ -1141,7 +1141,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -30.48 -48.26 0)
+				(at -22.86 -33.02 0)
 				(length 7.62)
 				(name "VIN3"
 					(effects
@@ -1159,7 +1159,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -30.48 -66.04 0)
+				(at -22.86 -55.88 0)
 				(length 7.62)
 				(name "REFOUT"
 					(effects
@@ -1177,7 +1177,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -30.48 -68.58 0)
+				(at -22.86 -58.42 0)
 				(length 7.62)
 				(name "REGCAPA"
 					(effects
@@ -1195,7 +1195,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -2.54 -99.06 90)
+				(at -2.54 -76.2 90)
 				(length 7.62)
 				(name "AVSS"
 					(effects
@@ -1213,7 +1213,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -10.16 -7.62 270)
+				(at -5.08 7.62 270)
 				(length 7.62)
 				(name "AVDD"
 					(effects
@@ -4940,6 +4940,426 @@
 			)
 		)
 	)
+	(symbol "CA-IS3641HW"
+		(pin_names
+			(offset 0.254)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 20.32 10.16 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "CA-IS3641HW"
+			(at 20.32 7.62 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "kicad_inventree_lib:SOIC16-WBW_CLG-M"
+			(at 20.32 -26.162 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://inventree.network/part/115/"
+			(at 19.558 -26.162 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "part_ipn" "http://inventree.network/part/115/"
+			(at 20.574 -26.162 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "CA-IS3641HW"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "SOIC16-WBW_CLG SOIC16-WBW_CLG-M SOIC16-WBW_CLG-L"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "CA-IS3641HW_0_1"
+			(polyline
+				(pts
+					(xy 7.62 -22.86) (xy 33.02 -22.86)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7.62 5.08) (xy 7.62 -22.86)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 33.02 -22.86) (xy 33.02 5.08)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 33.02 5.08) (xy 7.62 5.08)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin power_in line
+				(at 0 0 0)
+				(length 7.62)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 40.64 -15.24 180)
+				(length 7.62)
+				(name "SEL"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 40.64 -12.7 180)
+				(length 7.62)
+				(name "VI4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 40.64 -7.62 180)
+				(length 7.62)
+				(name "VO2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 40.64 -5.08 180)
+				(length 7.62)
+				(name "VO1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 40.64 -2.54 180)
+				(length 7.62)
+				(name "GNDB"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "15"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 40.64 0 180)
+				(length 7.62)
+				(name "VISO"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "16"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 0 -2.54 0)
+				(length 7.62)
+				(name "GNDA"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 -5.08 0)
+				(length 7.62)
+				(name "VI1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 -7.62 0)
+				(length 7.62)
+				(name "VI2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 0 -12.7 0)
+				(length 7.62)
+				(name "VO4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 0 -15.24 0)
+				(length 7.62)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 0 -17.78 0)
+				(length 7.62)
+				(name "GNDA"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 40.64 -17.78 180)
+				(length 7.62)
+				(name "GNDB"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "CA-IS3641HW_1_1"
+			(pin input line
+				(at 40.64 -10.16 180)
+				(length 7.62)
+				(name "VO3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 0 -10.16 0)
+				(length 7.62)
+				(name "VI3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
 	(symbol "C_100nF_50V_1206"
 		(pin_numbers hide)
 		(pin_names
@@ -5337,6 +5757,151 @@
 			)
 		)
 		(symbol "C_10nF_1206_1_1"
+			(pin passive line
+				(at 0 3.81 270)
+				(length 2.794)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -3.81 90)
+				(length 2.794)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "C_10uF_50V_1206"
+		(pin_numbers hide)
+		(pin_names
+			(offset 0.254)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "C"
+			(at 0.635 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 0.635 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(at 0.9652 -3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://inventree.network/part/116/"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "part_ipn" "C_10uF_50V_1206"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "cap capacitor"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "C_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "C_10uF_50V_1206_0_1"
+			(polyline
+				(pts
+					(xy -2.032 -0.762) (xy 2.032 -0.762)
+				)
+				(stroke
+					(width 0.508)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.032 0.762) (xy 2.032 0.762)
+				)
+				(stroke
+					(width 0.508)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "C_10uF_50V_1206_1_1"
 			(pin passive line
 				(at 0 3.81 270)
 				(length 2.794)
@@ -25445,6 +26010,136 @@
 			)
 		)
 		(symbol "R_3k3_1206_1%_1_1"
+			(pin passive line
+				(at 0 3.81 270)
+				(length 1.27)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -3.81 90)
+				(length 1.27)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "R_4k7_1206_1%"
+		(pin_numbers hide)
+		(pin_names
+			(offset 0)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "R"
+			(at 2.032 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4k7"
+			(at 0 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at -1.778 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://inventree.network/part/117/"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "part_ipn" "R_4k7_1206_1%"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "R res resistor"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "R_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "R_4k7_1206_1%_0_1"
+			(rectangle
+				(start -1.016 -2.54)
+				(end 1.016 2.54)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "R_4k7_1206_1%_1_1"
 			(pin passive line
 				(at 0 3.81 270)
 				(length 1.27)
