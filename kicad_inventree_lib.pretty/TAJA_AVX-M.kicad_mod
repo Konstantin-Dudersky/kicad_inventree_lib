@@ -6,7 +6,6 @@
 	(tags "TAJA106M016RNJ ")
 	(property "Reference" "REF**"
 		(at 0 -2.54 0)
-		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "dd7f231a-b2a7-4ed8-a2da-0949edc13c3d")
 		(effects
