@@ -1,0 +1,236 @@
+(footprint "G5NB-1A-E_DC12_RELAY_G5NB-1A_DC5_OMR"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -1.83 2.51 0)
+		(layer "F.SilkS")
+		(uuid "50a42553-bc87-4b7c-8a88-cc28d19d59a9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "RELAY_G5NB-1A_DC5_OMR"
+		(at 9.2562 -9.15 0)
+		(layer "F.Fab")
+		(uuid "f2a3b3ec-67a0-439c-8e5d-4023aa045c07")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "G5NB-1A-E_DC12_RELAY_G5NB-1A_DC5_OMR"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "93c88e08-c768-46f1-89e3-0f0d19b22e51")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6b97dc19-620d-493f-8187-8bc5a7731329")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2faccb9f-3125-45f1-83a6-ffe8fb5aca53")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -5.977 -19.477)
+		(end -5.977 -16.51)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6f56ae63-9c61-4562-81f2-906f6695d014")
+	)
+	(fp_line
+		(start -5.977 -8.89)
+		(end -5.977 1.177)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ee62e323-c165-4242-8f39-b8bfbef6357b")
+	)
+	(fp_line
+		(start -5.977 1.177)
+		(end -5.2734 1.177)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2ce1fc4e-20bc-4e0e-8f51-98edfb573992")
+	)
+	(fp_line
+		(start -4.1266 1.177)
+		(end 1.277 1.177)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1d99838a-e319-483d-b409-6adeb12fbb40")
+	)
+	(fp_line
+		(start 1.277 -19.477)
+		(end -5.977 -19.477)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4c5ffee0-8b0c-4edc-a678-1f99b73f1972")
+	)
+	(fp_line
+		(start 1.277 -19.477)
+		(end 1.277 -16.51)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a9ef4f59-4045-4fd4-8492-a0e439eb72da")
+	)
+	(fp_line
+		(start 1.277 1.177)
+		(end 1.277 -8.89)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c04f9b98-6a4a-4925-9fdc-99fb4636f4a9")
+	)
+	(fp_line
+		(start -5.85 -19.35)
+		(end -5.85 1.05)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7acfbdbf-34b9-469f-8520-9baab9c5aa84")
+	)
+	(fp_line
+		(start -5.85 1.05)
+		(end 1.15 1.05)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e94d7283-9282-4428-9d44-63e2e52d8c11")
+	)
+	(fp_line
+		(start 1.15 -19.35)
+		(end -5.85 -19.35)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e728f1c3-0886-4aed-85db-c51f4580d7ce")
+	)
+	(fp_line
+		(start 1.15 1.05)
+		(end 1.15 -19.35)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "30b96fd0-8a9f-4ced-87df-8a7d04e4a624")
+	)
+	(fp_arc
+		(start -2.0452 -19.35)
+		(mid -2.35 -19.0452)
+		(end -2.6548 -19.35)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "36dadf86-fe9f-4777-894b-980f741edc0c")
+	)
+	(pad "1" thru_hole circle
+		(at -4.7 -18.3)
+		(size 1.608 1.608)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "d6cfdb8f-6381-4a71-b7c3-86e356621612")
+	)
+	(pad "2" thru_hole circle
+		(at -4.7 -6.8)
+		(size 1.608 1.608)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "a01e4815-91b9-43d2-bba4-9f820d985996")
+	)
+	(pad "3" thru_hole circle
+		(at -4.7 0.2)
+		(size 1.608 1.608)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "912b715d-c9ad-4ea9-9404-19837ca102af")
+	)
+	(pad "4" thru_hole circle
+		(at 0 -18.3)
+		(size 1.608 1.608)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "effd3f1a-c845-44db-9174-2a3cce407d74")
+	)
+	(model "${KICAD_3RD_PARTY}/NextPCB.3dshapes/G5NB-1A-E_DC12.step"
+		(offset
+			(xyz -4.7 18.3 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 90)
+		)
+	)
+)
