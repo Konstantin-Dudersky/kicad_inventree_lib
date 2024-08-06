@@ -6,7 +6,6 @@
 	(tags "U254-051T-4BH83-S1S ")
 	(property "Reference" "REF**"
 		(at 1.299972 -2.54 0)
-		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "01de538d-a9ed-4d17-9a34-11c5d3886fe6")
 		(effects
@@ -18,7 +17,6 @@
 	)
 	(property "Value" "CONN5_H83-S1S_XKB"
 		(at 1.299972 7.62 0)
-		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "5c8b2932-8110-48ae-b2de-e76661000575")
 		(effects
@@ -66,16 +64,6 @@
 	)
 	(attr smd)
 	(fp_line
-		(start -2.807028 1.13284)
-		(end -2.807028 1.382484)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "85590e2a-0847-4109-8a8e-45dd4b31a9b5")
-	)
-	(fp_line
 		(start -2.807028 3.317532)
 		(end -2.807028 5.1308)
 		(stroke
@@ -94,16 +82,6 @@
 		)
 		(layer "F.SilkS")
 		(uuid "723d4995-0b9a-4743-86c2-de817cef7efd")
-	)
-	(fp_line
-		(start 5.406972 1.382484)
-		(end 5.406972 1.13284)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "e849ba8a-e5b0-4163-8fce-56ea69148246")
 	)
 	(fp_line
 		(start 5.406972 5.1308)
@@ -197,7 +175,6 @@
 	)
 	(fp_text user "${REFERENCE}"
 		(at 1.299972 7.62 0)
-		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "545698df-609b-4ffa-ae67-c276434fef51")
 		(effects
@@ -239,8 +216,8 @@
 	)
 	(pad "5" thru_hole oval
 		(at -1.525029 2.854008 90)
-		(size 1.7018 1.1176)
-		(drill 0.0254)
+		(size 1.7 1)
+		(drill oval 1.2 0.5)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "671f0347-ffd5-43f2-a5ff-ecf2ae8db0fb")
@@ -253,8 +230,8 @@
 	)
 	(pad "5" thru_hole oval
 		(at 4.124973 2.854008 90)
-		(size 1.7018 1.1176)
-		(drill oval 0.254)
+		(size 1.7 1)
+		(drill oval 1.2 0.5)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "2c241c5d-5e87-43dd-a723-cca37bda2677")
