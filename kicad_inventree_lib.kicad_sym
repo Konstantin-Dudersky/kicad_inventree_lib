@@ -3527,7 +3527,7 @@
 			)
 		)
 		(property "Footprint" "kicad_inventree_lib:SOD-323_STM-M"
-			(at 0 0 0)
+			(at 1.524 -7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3537,7 +3537,7 @@
 			)
 		)
 		(property "Datasheet" "http://inventree.network/part/133/"
-			(at 0 0 0)
+			(at 0.762 -7.366 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3556,7 +3556,7 @@
 			)
 		)
 		(property "part_ipn" "BAT20J"
-			(at 0 0 0)
+			(at 0.508 -7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3679,7 +3679,9 @@
 					(type none)
 				)
 			)
-			(pin unspecified line
+		)
+		(symbol "BAT20J_1_1"
+			(pin passive line
 				(at 0 0 0)
 				(length 2.54)
 				(name ""
@@ -3697,7 +3699,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at 10.16 0 180)
 				(length 2.54)
 				(name ""
