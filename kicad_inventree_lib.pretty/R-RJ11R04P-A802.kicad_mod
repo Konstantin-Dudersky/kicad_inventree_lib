@@ -68,7 +68,7 @@
 	)
 	(attr through_hole)
 	(fp_line
-		(start -5 -6)
+		(start -5 -2.02)
 		(end -5 -1.5)
 		(stroke
 			(width 0.1)
@@ -78,8 +78,8 @@
 		(uuid "f25d959b-5036-4045-add4-871cdffabb7e")
 	)
 	(fp_line
-		(start -5 -6)
-		(end 5 -6)
+		(start -5 -2.02)
+		(end 5 -2.02)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -98,7 +98,7 @@
 		(uuid "307ee3d7-67fb-4e3f-bdac-b12418aa7d11")
 	)
 	(fp_line
-		(start 5 -6)
+		(start 5 -2.02)
 		(end 5 -1.5)
 		(stroke
 			(width 0.1)
@@ -137,18 +137,6 @@
 		(fill none)
 		(layer "F.CrtYd")
 		(uuid "5f998928-41e7-4015-9a83-d8f87f37c2c0")
-	)
-	(fp_text user "RJ11"
-		(at 0 -2.54 0)
-		(unlocked yes)
-		(layer "F.SilkS")
-		(uuid "1045ae35-422b-4523-9ca5-3b10016d0622")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 10.16 0)

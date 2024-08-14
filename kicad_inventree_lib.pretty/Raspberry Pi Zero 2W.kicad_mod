@@ -1,0 +1,136 @@
+(footprint "Raspberry Pi Zero 2W"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "6f1e2c70-d915-43b9-874d-238215a9d28e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Raspberry Pi Zero 2W"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "1d80ebb8-c705-408f-81f0-0e4d8ed16537")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b51ff3e6-4784-46bb-a602-935d2f750610")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1ca64f7f-6e0b-4ba7-9b08-c8bbd8b7ed8a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c48c9188-d4a1-40c7-82e8-a01b269ffe00")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_circle
+		(center -29 0)
+		(end -27.75 0)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(fill none)
+		(layer "Edge.Cuts")
+		(uuid "efcae9d6-2aa9-42d4-9bce-3906152f2831")
+	)
+	(fp_circle
+		(center -29 23)
+		(end -27.75 23)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(fill none)
+		(layer "Edge.Cuts")
+		(uuid "a4cad44e-2422-4ba8-bac3-611d3a7114d3")
+	)
+	(fp_circle
+		(center 29 0)
+		(end 30.25 0)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(fill none)
+		(layer "Edge.Cuts")
+		(uuid "94ca7997-1e72-4688-b9f9-082f21f279e4")
+	)
+	(fp_circle
+		(center 29 23)
+		(end 30.25 23)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(fill none)
+		(layer "Edge.Cuts")
+		(uuid "fba5f8d7-c5f6-4c99-be02-3fb663cc8c2d")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "e05e1dbc-7ad2-43c6-ad2d-974428aed58f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(model "${kicad_inventree_lib}/kicad_inventree_lib.3dshapes/Raspberry Pi Zero 2 W.STEP"
+		(offset
+			(xyz 0 -11.5 10)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)
