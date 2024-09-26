@@ -1806,6 +1806,22 @@
 		(uuid "4472c48a-d22f-4060-be8a-b4a443458db1")
 	)
 	(pad "" np_thru_hole circle
+		(at -26 -30 90)
+		(size 2.75 2.75)
+		(drill 2.75)
+		(layers "*.Cu" "*.Mask")
+		(solder_mask_margin 1.625)
+		(uuid "e98d4e04-da68-4d1d-ade7-864fcb4ebafd")
+	)
+	(pad "" np_thru_hole circle
+		(at -26 28 90)
+		(size 2.75 2.75)
+		(drill 2.75)
+		(layers "*.Cu" "*.Mask")
+		(solder_mask_margin 1.625)
+		(uuid "de6c9fe8-f8c6-4bd8-a682-4dacbf123acd")
+	)
+	(pad "" np_thru_hole circle
 		(at 0 -30 90)
 		(size 2.75 2.75)
 		(drill 2.75)
