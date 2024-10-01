@@ -14856,7 +14856,7 @@
 				)
 			)
 		)
-		(property "Value" "2EDGR-5.08-18P"
+		(property "Value" "2EDGR-5.08-19P"
 			(at -4.318 -48.514 0)
 			(effects
 				(font
@@ -14864,7 +14864,7 @@
 				)
 			)
 		)
-		(property "Footprint" "NextPCB:Degson_2EDGR-5.08-18P"
+		(property "Footprint" "kicad_inventree_lib:Degson_2EDGR-5.08-19P"
 			(at 0 0 0)
 			(effects
 				(font
@@ -14891,25 +14891,7 @@
 				(hide yes)
 			)
 		)
-		(property "NextPCB_url" "https://www.hqonline.com/product-detail/terminal-blocks-kangnex-wj2edgr-5-08-18p-2500349376"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "NextPCB_price" "0.17085"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "part_ipn" "2EDGR-5.08-18P"
+		(property "part_ipn" "2EDGR-5.08-19P"
 			(at 0 0 0)
 			(effects
 				(font
