@@ -19831,6 +19831,647 @@
 			)
 		)
 	)
+	(symbol "FFC_10P_P1.0_50mm_straight"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(property "Reference" "J"
+			(at 0 2.794 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "FFC_10P_P1.0_50mm_straight"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://inventree.network/part/171/"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "part_ipn" "FFC_10P_P1.0_50mm_reverse"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "FFC_10P_P1.0_50mm_straight_0_1"
+			(polyline
+				(pts
+					(xy -8.89 -25.4) (xy 8.89 -25.4)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -8.89 -22.86) (xy 8.89 -22.86)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -8.89 -20.32) (xy 8.89 -20.32)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -8.89 -17.78) (xy 8.89 -17.78)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -8.89 -15.24) (xy 8.89 -15.24)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -8.89 -12.7) (xy 8.89 -12.7)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -8.89 -10.16) (xy 8.89 -10.16)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -8.89 -7.62) (xy 8.89 -7.62)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -8.89 -5.08) (xy 8.89 -5.08)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -8.89 -2.54) (xy 8.89 -2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "FFC_10P_P1.0_50mm_straight_1_1"
+			(rectangle
+				(start -10.16 -25.273)
+				(end -9.2964 -25.527)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start -10.16 -22.733)
+				(end -9.2964 -22.987)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start -10.16 -20.193)
+				(end -9.2964 -20.447)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start -10.16 -17.653)
+				(end -9.2964 -17.907)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start -10.16 -15.113)
+				(end -9.2964 -15.367)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start -10.16 -12.573)
+				(end -9.2964 -12.827)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start -10.16 -10.033)
+				(end -9.2964 -10.287)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start -10.16 -7.493)
+				(end -9.2964 -7.747)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start -10.16 -4.953)
+				(end -9.2964 -5.207)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start -10.16 -2.413)
+				(end -9.2964 -2.667)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy -8.89 -25.4) (xy -9.2964 -25.4)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -8.89 -22.86) (xy -9.2964 -22.86)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -8.89 -20.32) (xy -9.2964 -20.32)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -8.89 -17.78) (xy -9.2964 -17.78)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -8.89 -15.24) (xy -9.2964 -15.24)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -8.89 -12.7) (xy -9.2964 -12.7)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -8.89 -10.16) (xy -9.2964 -10.16)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -8.89 -7.62) (xy -9.2964 -7.62)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -8.89 -5.08) (xy -9.2964 -5.08)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -8.89 -2.54) (xy -9.2964 -2.54)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 8.89 -25.4) (xy 9.2964 -25.4)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 8.89 -22.86) (xy 9.2964 -22.86)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 8.89 -20.32) (xy 9.2964 -20.32)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 8.89 -17.78) (xy 9.2964 -17.78)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 8.89 -15.24) (xy 9.2964 -15.24)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 8.89 -12.7) (xy 9.2964 -12.7)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 8.89 -10.16) (xy 9.2964 -10.16)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 8.89 -7.62) (xy 9.2964 -7.62)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 8.89 -5.08) (xy 9.2964 -5.08)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 8.89 -2.54) (xy 9.2964 -2.54)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 9.2964 -25.273)
+				(end 10.16 -25.527)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start 9.2964 -22.733)
+				(end 10.16 -22.987)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start 9.2964 -20.193)
+				(end 10.16 -20.447)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start 9.2964 -17.653)
+				(end 10.16 -17.907)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start 9.2964 -15.113)
+				(end 10.16 -15.367)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start 9.2964 -12.573)
+				(end 10.16 -12.827)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start 9.2964 -10.033)
+				(end 10.16 -10.287)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start 9.2964 -7.493)
+				(end 10.16 -7.747)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start 9.2964 -4.953)
+				(end 10.16 -5.207)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start 9.2964 -2.413)
+				(end 10.16 -2.667)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+		)
+	)
 	(symbol "FemaleHeader P2.54 01x04 THT Angle"
 		(pin_names
 			(offset 1.016) hide)
@@ -44296,7 +44937,7 @@
 		(symbol "RaspberryPi_0_1"
 			(rectangle
 				(start -15.24 0)
-				(end 15.24 -68.58)
+				(end 15.24 -71.12)
 				(stroke
 					(width 0)
 					(type default)
@@ -44326,7 +44967,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 -19.05 0)
+				(at -19.05 -20.32 0)
 				(length 3.81)
 				(name "GPIO15/UART_RX"
 					(effects
@@ -44344,7 +44985,7 @@
 				)
 			)
 			(pin passive line
-				(at 19.05 -6.35 180)
+				(at 19.05 -7.62 180)
 				(length 3.81)
 				(name "GPIO17"
 					(effects
@@ -44362,7 +45003,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 -46.99 0)
+				(at -19.05 -48.26 0)
 				(length 3.81)
 				(name "GPIO18/PCM_CLK"
 					(effects
@@ -44380,7 +45021,7 @@
 				)
 			)
 			(pin passive line
-				(at 19.05 -8.89 180)
+				(at 19.05 -10.16 180)
 				(length 3.81)
 				(name "GPIO27"
 					(effects
@@ -44398,7 +45039,7 @@
 				)
 			)
 			(pin passive line
-				(at -3.81 -72.39 90)
+				(at -3.81 -74.93 90)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -44416,7 +45057,7 @@
 				)
 			)
 			(pin passive line
-				(at 19.05 -11.43 180)
+				(at 19.05 -12.7 180)
 				(length 3.81)
 				(name "GPIO22"
 					(effects
@@ -44434,7 +45075,7 @@
 				)
 			)
 			(pin passive line
-				(at 19.05 -13.97 180)
+				(at 19.05 -15.24 180)
 				(length 3.81)
 				(name "GPIO23"
 					(effects
@@ -44470,7 +45111,7 @@
 				)
 			)
 			(pin passive line
-				(at 19.05 -16.51 180)
+				(at 19.05 -17.78 180)
 				(length 3.81)
 				(name "GPIO24"
 					(effects
@@ -44488,7 +45129,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 -24.13 0)
+				(at -19.05 -25.4 0)
 				(length 3.81)
 				(name "GPIO10/SPI_MOSI"
 					(effects
@@ -44524,7 +45165,7 @@
 				)
 			)
 			(pin passive line
-				(at -1.27 -72.39 90)
+				(at -1.27 -74.93 90)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -44542,7 +45183,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 -26.67 0)
+				(at -19.05 -27.94 0)
 				(length 3.81)
 				(name "GPIO9/SPI_MISO"
 					(effects
@@ -44560,7 +45201,7 @@
 				)
 			)
 			(pin passive line
-				(at 19.05 -19.05 180)
+				(at 19.05 -20.32 180)
 				(length 3.81)
 				(name "GPIO25"
 					(effects
@@ -44578,7 +45219,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 -29.21 0)
+				(at -19.05 -30.48 0)
 				(length 3.81)
 				(name "GPIO11/SPI_SCLK"
 					(effects
@@ -44596,7 +45237,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 -31.75 0)
+				(at -19.05 -33.02 0)
 				(length 3.81)
 				(name "GPIO8/SPI_CE0"
 					(effects
@@ -44614,7 +45255,7 @@
 				)
 			)
 			(pin passive line
-				(at 1.27 -72.39 90)
+				(at 1.27 -74.93 90)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -44632,7 +45273,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 -34.29 0)
+				(at -19.05 -35.56 0)
 				(length 3.81)
 				(name "GPIO7/SPI_CE1"
 					(effects
@@ -44650,7 +45291,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 -39.37 0)
+				(at -19.05 -40.64 0)
 				(length 3.81)
 				(name "GPIO0/EEPROM_SDA"
 					(effects
@@ -44668,7 +45309,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 -41.91 0)
+				(at -19.05 -43.18 0)
 				(length 3.81)
 				(name "GPIO0/EEPROM_SCL"
 					(effects
@@ -44686,7 +45327,7 @@
 				)
 			)
 			(pin passive line
-				(at 19.05 -21.59 180)
+				(at 19.05 -22.86 180)
 				(length 3.81)
 				(name "GPIO5"
 					(effects
@@ -44704,7 +45345,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 -6.35 0)
+				(at -19.05 -7.62 0)
 				(length 3.81)
 				(name "GPIO2/I2C_SDA"
 					(effects
@@ -44722,7 +45363,7 @@
 				)
 			)
 			(pin passive line
-				(at 3.81 -72.39 90)
+				(at 3.81 -74.93 90)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -44740,7 +45381,7 @@
 				)
 			)
 			(pin passive line
-				(at 19.05 -24.13 180)
+				(at 19.05 -25.4 180)
 				(length 3.81)
 				(name "GPIO6"
 					(effects
@@ -44758,7 +45399,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 -59.69 0)
+				(at -19.05 -60.96 0)
 				(length 3.81)
 				(name "GPIO12/PWM0"
 					(effects
@@ -44776,7 +45417,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 -62.23 0)
+				(at -19.05 -63.5 0)
 				(length 3.81)
 				(name "GPIO13/PWM1"
 					(effects
@@ -44794,7 +45435,7 @@
 				)
 			)
 			(pin passive line
-				(at 6.35 -72.39 90)
+				(at 6.35 -74.93 90)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -44812,7 +45453,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 -49.53 0)
+				(at -19.05 -50.8 0)
 				(length 3.81)
 				(name "GPIO19/PCM_FS"
 					(effects
@@ -44830,7 +45471,7 @@
 				)
 			)
 			(pin passive line
-				(at 19.05 -26.67 180)
+				(at 19.05 -27.94 180)
 				(length 3.81)
 				(name "GPIO16"
 					(effects
@@ -44848,7 +45489,7 @@
 				)
 			)
 			(pin passive line
-				(at 19.05 -29.21 180)
+				(at 19.05 -30.48 180)
 				(length 3.81)
 				(name "GPIO26"
 					(effects
@@ -44866,7 +45507,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 -52.07 0)
+				(at -19.05 -53.34 0)
 				(length 3.81)
 				(name "GPIO20/PCM_DIN"
 					(effects
@@ -44884,7 +45525,7 @@
 				)
 			)
 			(pin passive line
-				(at 8.89 -72.39 90)
+				(at 8.89 -74.93 90)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -44920,7 +45561,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 -54.61 0)
+				(at -19.05 -55.88 0)
 				(length 3.81)
 				(name "GPIO20/PCM_DOUT"
 					(effects
@@ -44938,7 +45579,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 -8.89 0)
+				(at -19.05 -10.16 0)
 				(length 3.81)
 				(name "GPIO3/I2C_SCL"
 					(effects
@@ -44956,7 +45597,7 @@
 				)
 			)
 			(pin passive line
-				(at -8.89 -72.39 90)
+				(at -8.89 -74.93 90)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -44974,7 +45615,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 -11.43 0)
+				(at -19.05 -12.7 0)
 				(length 3.81)
 				(name "GPIO4/GPCLK0"
 					(effects
@@ -44992,7 +45633,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 -16.51 0)
+				(at -19.05 -17.78 0)
 				(length 3.81)
 				(name "GPIO14/UART_TX"
 					(effects
@@ -45010,7 +45651,7 @@
 				)
 			)
 			(pin passive line
-				(at -6.35 -72.39 90)
+				(at -6.35 -74.93 90)
 				(length 3.81)
 				(name "GND"
 					(effects
