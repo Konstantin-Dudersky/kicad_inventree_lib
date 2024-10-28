@@ -3476,6 +3476,15 @@
 				(hide yes)
 			)
 		)
+		(property "part_ipn" "AFA07-S10FCC-00"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "ki_keywords" "connector"
 			(at 0 0 0)
 			(effects
@@ -4133,7 +4142,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/szlcsc/1811151639_MORNSUN-Guangzhou-S-T-B0505S-1WR3_C131038.pdf"
+		(property "Datasheet" "http://inventree.network/platform/part/181/details"
 			(at 19.05 -194.92 0)
 			(effects
 				(font
@@ -4162,63 +4171,12 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Mornsun Power"
-			(at 19.05 -494.92 0)
+		(property "part_ipn" "B0505S-1WR3"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "B0505S-1WR3"
-			(at 19.05 -594.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 19.05 -694.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 19.05 -794.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 19.05 -894.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 19.05 -994.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
 				(hide yes)
 			)
 		)
@@ -10050,7 +10008,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "http://inventree.network/platform/part/183/details"
 			(at 0 0 0)
 			(effects
 				(font
@@ -10060,6 +10018,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x10, script generated"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "part_ipn" "DG141R-2.54-10P"
 			(at 0 0 0)
 			(effects
 				(font
@@ -32188,7 +32155,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 0 0 0)
+			(at 10.16 -49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32223,6 +32190,15 @@
 		)
 		(property "Description" ""
 			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "part_ipn" "ESP32C3_v0.0.2"
+			(at 0 2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33181,7 +33157,7 @@
 				)
 			)
 			(text "PM-ESP32C3 v0.0.2"
-				(at 7.62 -66.04 900)
+				(at 7.62 -49.53 900)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -47128,12 +47104,13 @@
 				(hide yes)
 			)
 		)
-		(property "ki_locked" ""
+		(property "part_ipn" "TS-1187A-B-A-B"
 			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "ki_keywords" "TS-1187A-B-A-B"
