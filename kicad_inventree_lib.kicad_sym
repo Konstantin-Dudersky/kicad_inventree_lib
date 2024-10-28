@@ -32197,7 +32197,7 @@
 				(hide yes)
 			)
 		)
-		(property "part_ipn" "ESP32C3_v0.0.2"
+		(property "part_ipn" "PM-ESP32C3_v0.0.2"
 			(at 0 2.54 0)
 			(effects
 				(font
@@ -33940,6 +33940,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "part_ipn" "PM-LED8_v0.0.1"
 			(at 0 0 0)
 			(effects
 				(font
