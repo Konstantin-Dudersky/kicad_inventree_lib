@@ -229,7 +229,7 @@
 		(remove_unused_layers no)
 		(uuid "4de607b7-9772-4296-8e15-f5d806b259b9")
 	)
-	(model "${kicad_inventree_lib}/kicad_inventree_lib.3dshapes/2EDGR-5.08-06P-14-100A(H).stp"
+	(model "${kicad_inventree_lib}/kicad_inventree_lib.3dshapes/2EDGR-5.08-04P-14-100A(H).stp"
 		(offset
 			(xyz -32 2 18.5)
 		)
