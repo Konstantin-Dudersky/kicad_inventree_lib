@@ -5,7 +5,7 @@
 	(layer "F.Cu")
 	(tags "AFA07-S10ECA-00 ")
 	(property "Reference" "REF**"
-		(at 0 -3.556 0)
+		(at 0 -6 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "370587fc-9fe2-4742-82f1-1d73771168a1")
@@ -253,7 +253,7 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "abd742cc-adee-4039-a11c-8c5627e87bf6")
 	)
-	(pad "12" smd rect
+	(pad "11" smd rect
 		(at 6.850002 -1.385999)
 		(size 2.5908 2.9972)
 		(layers "F.Cu" "F.Paste" "F.Mask")

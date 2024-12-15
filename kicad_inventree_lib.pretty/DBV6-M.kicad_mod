@@ -5,7 +5,7 @@
 	(layer "F.Cu")
 	(tags "SN74LVC2G14DBVR ")
 	(property "Reference" "REF**"
-		(at 0 0 0)
+		(at 0 3.175 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "43f91ed8-6bd2-41e9-8079-15acc7d97a2d")
@@ -501,17 +501,6 @@
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "6a6bbc4f-7fcd-44e1-8555-ff80f322986c")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(fp_text user "*"
-		(at -1.72085 -2.6518 0)
-		(layer "F.SilkS")
-		(uuid "a46bbdc1-42de-45a2-9ff5-9c574200a48f")
 		(effects
 			(font
 				(size 1 1)

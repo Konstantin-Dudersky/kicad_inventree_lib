@@ -5,7 +5,7 @@
 	(layer "F.Cu")
 	(tags "SM712-02HTG ")
 	(property "Reference" "REF**"
-		(at 0 0 0)
+		(at 0 3.175 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "0e00e045-ea3e-4859-87bf-743bf29d9807")

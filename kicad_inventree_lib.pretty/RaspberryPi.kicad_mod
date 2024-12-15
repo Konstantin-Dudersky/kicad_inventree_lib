@@ -187,17 +187,6 @@
 		(layer "F.CrtYd")
 		(uuid "8dd6c80d-6055-4ee0-b6fd-d093e6267cd4")
 	)
-	(fp_rect
-		(start -52.5 -33.5)
-		(end 3.5 51.5)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(fill none)
-		(layer "F.CrtYd")
-		(uuid "fa376aec-0f9e-439b-ad32-8662f1e12286")
-	)
 	(fp_line
 		(start -51.56 -25.07)
 		(end -50.29 -26.34)
@@ -247,6 +236,17 @@
 		)
 		(layer "F.Fab")
 		(uuid "86ea211f-f7c5-4821-b1a9-bbedf0360718")
+	)
+	(fp_rect
+		(start -52.5 -33.5)
+		(end 3.5 51.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "User.1")
+		(uuid "fa376aec-0f9e-439b-ad32-8662f1e12286")
 	)
 	(fp_text user "+3.3V"
 		(at -43.94 -4.75 0)
@@ -819,7 +819,7 @@
 		(at -26 -30 90)
 		(size 2.75 2.75)
 		(drill 2.75)
-		(layers "*.Cu" "*.Mask")
+		(layers "F&B.Cu" "*.Mask")
 		(solder_mask_margin 1.625)
 		(uuid "e98d4e04-da68-4d1d-ade7-864fcb4ebafd")
 	)

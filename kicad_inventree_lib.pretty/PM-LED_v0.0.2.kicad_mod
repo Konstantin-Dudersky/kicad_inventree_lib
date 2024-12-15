@@ -1,0 +1,352 @@
+(footprint "PM-LED_v0.0.2"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "977a6684-48f3-4bd8-8c3c-8ad430762c22")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "PM-LED_v0.0.2"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "35fd3dff-5848-4c32-9659-5cc9138ddc88")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "39557914-5cd8-4088-af49-f5e38eecadfe")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a42af202-4c6f-4408-8b69-44ec0156eb48")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8bc1af01-834a-4626-95b8-f8ee393555ee")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_circle
+		(center -10 -45)
+		(end -8.9 -45)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "Edge.Cuts")
+		(uuid "247691ab-1469-468c-97f8-3a578f700832")
+	)
+	(fp_circle
+		(center -10 45)
+		(end -8.9 45)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "Edge.Cuts")
+		(uuid "bb5b170d-f0e9-4725-a811-58df5554ffc9")
+	)
+	(fp_circle
+		(center 4 -45)
+		(end 5.1 -45)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "Edge.Cuts")
+		(uuid "2af01831-7a07-4b90-afbe-df314e6a8761")
+	)
+	(fp_circle
+		(center 4 45)
+		(end 5.1 45)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "Edge.Cuts")
+		(uuid "2411775e-d226-4c4e-b550-0801df32492c")
+	)
+	(fp_circle
+		(center -10 -45)
+		(end -7.55 -45)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "fd9dd06e-2d00-462b-8be5-b1add3d80e8b")
+	)
+	(fp_circle
+		(center -10 45)
+		(end -7.55 45)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "52910b47-7d2f-4169-81b4-9a1b857c88d2")
+	)
+	(fp_circle
+		(center 4 -45)
+		(end 6.45 -45)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "97701efb-a675-41a3-99a4-17d6a1040ec9")
+	)
+	(fp_circle
+		(center 4 45)
+		(end 6.45 45)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "ed152996-dd2e-4bd6-89ae-4d74e1555181")
+	)
+	(fp_line
+		(start -14.9 -45)
+		(end -14.9 45)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "User.1")
+		(uuid "b7426b48-7715-4d4e-9492-040762550ff1")
+	)
+	(fp_line
+		(start -12 -47.9)
+		(end -9.9 -47.9)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "User.1")
+		(uuid "18a7bcff-0a45-4b72-a5c8-8fd1199f5fda")
+	)
+	(fp_line
+		(start -12 47.9)
+		(end -9.9 47.9)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "User.1")
+		(uuid "79833f2c-87d7-4a6c-8a51-da82b041693b")
+	)
+	(fp_line
+		(start 3.9 -47.9)
+		(end 12 -47.9)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "User.1")
+		(uuid "a5c130cc-2a87-4396-98ae-683ced53d770")
+	)
+	(fp_line
+		(start 3.9 47.9)
+		(end 12 47.9)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "User.1")
+		(uuid "85c6ee94-291e-4095-8cfb-8f9c93eed7ea")
+	)
+	(fp_line
+		(start 14.9 45)
+		(end 14.9 -45)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "User.1")
+		(uuid "94da3beb-9935-474f-be53-dc1d6f81ea87")
+	)
+	(fp_arc
+		(start -14.9 -45)
+		(mid -14.05061 -47.05061)
+		(end -12 -47.9)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "User.1")
+		(uuid "d79581b6-1438-4b80-9912-399fcbf05017")
+	)
+	(fp_arc
+		(start -12 47.9)
+		(mid -14.05061 47.05061)
+		(end -14.9 45)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "User.1")
+		(uuid "5c556262-1650-4192-aba7-155ec61a298a")
+	)
+	(fp_arc
+		(start -9.9 -47.9)
+		(mid -7.84939 -47.05061)
+		(end -7 -45)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "User.1")
+		(uuid "69f32df2-2bfa-4631-8ff3-85bf3587fe39")
+	)
+	(fp_arc
+		(start -7 45)
+		(mid -7.849391 47.050609)
+		(end -9.9 47.9)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "User.1")
+		(uuid "4977e593-4d73-4e32-9b98-76585f5d115d")
+	)
+	(fp_arc
+		(start -6.999999 45)
+		(mid -3 41.876895)
+		(end 0.999999 45)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "User.1")
+		(uuid "46c899a7-f226-41d6-a936-514e4f6d06a2")
+	)
+	(fp_arc
+		(start 0.999999 -45)
+		(mid -3 -41.876895)
+		(end -6.999999 -45)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "User.1")
+		(uuid "3e76ca7f-611c-4073-a91f-e644987f6447")
+	)
+	(fp_arc
+		(start 1 -45)
+		(mid 1.84939 -47.05061)
+		(end 3.9 -47.9)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "User.1")
+		(uuid "cd471f2e-28bc-47ce-a593-5b7cbf50f3e4")
+	)
+	(fp_arc
+		(start 3.9 47.9)
+		(mid 1.84939 47.05061)
+		(end 1 45)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "User.1")
+		(uuid "5f1df184-ebe2-48c3-a39a-b5f4ba2bfb0d")
+	)
+	(fp_arc
+		(start 12 -47.9)
+		(mid 14.05061 -47.05061)
+		(end 14.9 -45)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "User.1")
+		(uuid "a86e9fc1-d09e-4e4b-8de0-5ff5b1311aac")
+	)
+	(fp_arc
+		(start 14.9 45)
+		(mid 14.05061 47.05061)
+		(end 12 47.9)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "User.1")
+		(uuid "564c5abe-ae48-4fe1-8c0a-4d5b75e819ff")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "54ebcfa5-af29-47af-b3a9-209b8f1d1240")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -51 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ec6bc445-9adc-4fc9-8799-0aad52ddfff7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+)
