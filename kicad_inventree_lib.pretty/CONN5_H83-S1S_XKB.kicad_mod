@@ -62,7 +62,7 @@
 			)
 		)
 	)
-	(attr smd)
+	(attr through_hole)
 	(fp_line
 		(start -2.807028 3.317532)
 		(end -2.807028 5.1308)
@@ -92,6 +92,28 @@
 		)
 		(layer "F.SilkS")
 		(uuid "adb45b19-c037-42ec-9483-45ebd292faa8")
+	)
+	(fp_circle
+		(center -0.700028 0.504008)
+		(end -0.530028 0.504008)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "Edge.Cuts")
+		(uuid "68a94854-a5a4-4e0b-9b9b-f7ac1a8cefd0")
+	)
+	(fp_circle
+		(center 3.299972 0.504008)
+		(end 3.469972 0.504008)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "Edge.Cuts")
+		(uuid "a912098e-3fc5-49ea-becc-fa3e63226e2a")
 	)
 	(fp_line
 		(start -3.108129 -1.0541)
@@ -209,10 +231,16 @@
 		(uuid "4a0946bc-9bca-4c40-adb7-79c352aad8c0")
 	)
 	(pad "5" smd rect
-		(at -1.800027 0.304)
-		(size 2.1082 1.6002)
+		(at -2.014579 0.566533)
+		(size 1.679095 1.07515)
 		(layers "F.Cu" "F.Paste" "F.Mask")
-		(uuid "628b194f-da35-4ee7-ba54-6bf3dcebe5e2")
+		(uuid "d59a706d-b20c-4f00-8e32-e9b8244efbca")
+	)
+	(pad "5" smd rect
+		(at -1.800029 -0.233571)
+		(size 2.108196 0.525058)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "89a80a1d-54d1-4173-a2de-4ea849ab6413")
 	)
 	(pad "5" thru_hole oval
 		(at -1.525029 2.854008 90)
@@ -237,10 +265,20 @@
 		(uuid "2c241c5d-5e87-43dd-a723-cca37bda2677")
 	)
 	(pad "5" smd rect
-		(at 4.399971 0.304)
-		(size 2.1082 1.6002)
+		(at 4.399969 -0.233579)
+		(size 2.108196 0.525058)
 		(layers "F.Cu" "F.Paste" "F.Mask")
-		(uuid "4a001c67-8fec-4726-8197-d9aea6c373fe")
+		(uuid "12bebfab-d29e-4e02-88aa-d359f67f4671")
+	)
+	(pad "5" smd rect
+		(at 4.614519 0.566525)
+		(size 1.679095 1.07515)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "c775e2d6-cb79-418b-ba39-3335a084fa8f")
+	)
+	(group ""
+		(uuid "7e4cca8f-2298-496d-8492-a18ad6e8eff1")
+		(members "12bebfab-d29e-4e02-88aa-d359f67f4671" "c775e2d6-cb79-418b-ba39-3335a084fa8f")
 	)
 	(model "${kicad_inventree_lib}/kicad_inventree_lib.3dshapes/u254-05xx-4bh83-s1s.stp"
 		(offset

@@ -259,22 +259,14 @@
 		)
 	)
 	(pad "1" thru_hole circle
-		(at 0 0)
+		(at 7.62 0)
 		(size 1.65 1.65)
 		(drill 1.1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "845864c8-c760-4985-9462-c1325383a880")
+		(uuid "e7ef447e-28a5-4cac-a39f-b9c26b545bd5")
 	)
 	(pad "2" thru_hole circle
-		(at 2.54 0)
-		(size 1.65 1.65)
-		(drill 1.1)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "60595c7a-1d3a-40c2-a933-92c26d14789c")
-	)
-	(pad "3" thru_hole circle
 		(at 5.08 0)
 		(size 1.65 1.65)
 		(drill 1.1)
@@ -282,13 +274,21 @@
 		(remove_unused_layers no)
 		(uuid "31c3a3f5-e54f-4cb0-80e7-a9f3bfe5cf7e")
 	)
-	(pad "4" thru_hole circle
-		(at 7.62 0)
+	(pad "3" thru_hole circle
+		(at 2.54 0)
 		(size 1.65 1.65)
 		(drill 1.1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "e7ef447e-28a5-4cac-a39f-b9c26b545bd5")
+		(uuid "60595c7a-1d3a-40c2-a933-92c26d14789c")
+	)
+	(pad "4" thru_hole circle
+		(at 0 0)
+		(size 1.65 1.65)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "845864c8-c760-4985-9462-c1325383a880")
 	)
 	(model "${kicad_inventree_lib}/kicad_inventree_lib.3dshapes/B0505S-1WR3.stp"
 		(offset

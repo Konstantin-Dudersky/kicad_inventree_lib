@@ -1,4 +1,4 @@
-(footprint "DG141R-2.54-10P"
+(footprint "DG141R-2.54-08P"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -15,7 +15,7 @@
 			)
 		)
 	)
-	(property "Value" "DG141R-2.54-10P"
+	(property "Value" "DG141R-2.54-08P"
 		(at 0 -10.12 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -70,7 +70,7 @@
 	(attr through_hole)
 	(fp_line
 		(start 1.27 -11.43)
-		(end 26.67 -11.43)
+		(end 21.59 -11.43)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -80,7 +80,7 @@
 	)
 	(fp_line
 		(start 1.27 0)
-		(end 26.67 0)
+		(end 21.59 0)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -90,7 +90,7 @@
 	)
 	(fp_rect
 		(start 0 -11.12)
-		(end 27.94 2.28)
+		(end 22.86 2.28)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -240,41 +240,9 @@
 		(remove_unused_layers no)
 		(uuid "59b007ab-d72d-40ba-bea5-47093ecf05ea")
 	)
-	(pad "9" thru_hole circle
-		(at 21.22 -8.1)
-		(size 1.8 1.8)
-		(drill 1.1)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "92176fd1-b0dc-480d-a868-5db6e5831bcb")
-	)
-	(pad "9." thru_hole circle
-		(at 21.22 -3.02)
-		(size 1.8 1.8)
-		(drill 1.1)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "7c4b9e24-1e05-4419-bbd7-7d64142d6871")
-	)
-	(pad "10" thru_hole circle
-		(at 23.76 -8.1)
-		(size 1.8 1.8)
-		(drill 1.1)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "7c22153d-e6dc-443c-859b-5d0e7c5b7688")
-	)
-	(pad "10." thru_hole circle
-		(at 23.76 -3.02)
-		(size 1.8 1.8)
-		(drill 1.1)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "6658c44e-55eb-4e16-abde-40676d45764e")
-	)
-	(model "${kicad_inventree_lib}/kicad_inventree_lib.3dshapes/DG141R-2.54-10P-1Y-00A(H).stp"
+	(model "${kicad_inventree_lib}/kicad_inventree_lib.3dshapes/DG141R-2.54-08P-1Y-00A&Z(H).stp"
 		(offset
-			(xyz 28 11.12 0)
+			(xyz 22.9 11.12 0)
 		)
 		(scale
 			(xyz 1 1 1)

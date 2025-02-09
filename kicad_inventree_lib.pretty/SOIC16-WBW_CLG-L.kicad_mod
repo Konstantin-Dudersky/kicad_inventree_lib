@@ -1242,4 +1242,15 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "da6dbf27-8e00-4005-83e6-00a7e329bc32")
 	)
+	(model "${kicad_inventree_lib}/kicad_inventree_lib.3dshapes/SOIC16-WB_W__CLG.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )
