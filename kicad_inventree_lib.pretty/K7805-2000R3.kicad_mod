@@ -6,7 +6,7 @@
 	(descr "K7805-2000R3-1")
 	(tags "Connector")
 	(property "Reference" "J**"
-		(at 2.115 2.35 0)
+		(at 2.54 -3.81 0)
 		(layer "F.SilkS")
 		(uuid "e5250cf7-c0dd-4d02-8414-3aa03f6328ec")
 		(effects
@@ -17,7 +17,7 @@
 		)
 	)
 	(property "Value" "K78052000R3"
-		(at 2.115 2.35 0)
+		(at 2.54 8.89 0)
 		(layer "F.SilkS")
 		(hide yes)
 		(uuid "2a479540-fc7b-4642-8aa1-0d852d74c721")
@@ -148,8 +148,8 @@
 		(uuid "217aac6c-bdf2-4c8b-acb4-16960a2943d3")
 	)
 	(fp_line
-		(start -5.06 -3.15)
-		(end 9.29 -3.15)
+		(start -4.445 -3.15)
+		(end 9.525 -3.15)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -158,8 +158,8 @@
 		(uuid "5c8f77c0-5742-409e-8099-38668af2d6cc")
 	)
 	(fp_line
-		(start -5.06 7.85)
-		(end -5.06 -3.15)
+		(start -4.445 7.62)
+		(end -4.445 -3.15)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -168,8 +168,8 @@
 		(uuid "a90d41c6-294a-452c-b4ed-9feb555c8669")
 	)
 	(fp_line
-		(start 9.29 -3.15)
-		(end 9.29 7.85)
+		(start 9.525 -3.15)
+		(end 9.525 7.62)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -178,8 +178,8 @@
 		(uuid "42c654ff-f824-42ef-b776-ab88c00e64d2")
 	)
 	(fp_line
-		(start 9.29 7.85)
-		(end -5.06 7.85)
+		(start 9.525 7.62)
+		(end -4.445 7.62)
 		(stroke
 			(width 0.1)
 			(type solid)

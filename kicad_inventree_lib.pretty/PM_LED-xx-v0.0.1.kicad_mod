@@ -1,0 +1,244 @@
+(footprint "PM_LED-xx-v0.0.1"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "977a6684-48f3-4bd8-8c3c-8ad430762c22")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "PM_LED-xx-v0.0.1"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "35fd3dff-5848-4c32-9659-5cc9138ddc88")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "39557914-5cd8-4088-af49-f5e38eecadfe")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a42af202-4c6f-4408-8b69-44ec0156eb48")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8bc1af01-834a-4626-95b8-f8ee393555ee")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr allow_missing_courtyard)
+	(fp_circle
+		(center -10 -45)
+		(end -8.9 -45)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "Edge.Cuts")
+		(uuid "247691ab-1469-468c-97f8-3a578f700832")
+	)
+	(fp_circle
+		(center -10 45)
+		(end -8.9 45)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "Edge.Cuts")
+		(uuid "bb5b170d-f0e9-4725-a811-58df5554ffc9")
+	)
+	(fp_circle
+		(center 4 -45)
+		(end 5.1 -45)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "Edge.Cuts")
+		(uuid "2af01831-7a07-4b90-afbe-df314e6a8761")
+	)
+	(fp_circle
+		(center 4 45)
+		(end 5.1 45)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "Edge.Cuts")
+		(uuid "2411775e-d226-4c4e-b550-0801df32492c")
+	)
+	(fp_circle
+		(center -10 -45)
+		(end -7.55 -45)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "fd9dd06e-2d00-462b-8be5-b1add3d80e8b")
+	)
+	(fp_circle
+		(center -10 45)
+		(end -7.55 45)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "52910b47-7d2f-4169-81b4-9a1b857c88d2")
+	)
+	(fp_circle
+		(center 4 -45)
+		(end 6.45 -45)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "97701efb-a675-41a3-99a4-17d6a1040ec9")
+	)
+	(fp_circle
+		(center 4 45)
+		(end 6.45 45)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "ed152996-dd2e-4bd6-89ae-4d74e1555181")
+	)
+	(fp_poly
+		(pts
+			(arc
+				(start 12 47.995708)
+				(mid 14.118285 47.118285)
+				(end 14.995708 45)
+			)
+			(arc
+				(start 14.995708 -45)
+				(mid 14.118285 -47.118285)
+				(end 12 -47.995708)
+			)
+			(arc
+				(start 3 -48)
+				(mid 1.585786 -47.414214)
+				(end 1 -46)
+			)
+			(arc
+				(start 1 -46)
+				(mid -3 -42)
+				(end -7 -46)
+			)
+			(arc
+				(start -7 -46)
+				(mid -7.585786 -47.414214)
+				(end -9 -48)
+			)
+			(arc
+				(start -12 -48)
+				(mid -14.12132 -47.12132)
+				(end -15 -45)
+			)
+			(arc
+				(start -15 45)
+				(mid -14.12132 47.12132)
+				(end -12 48)
+			)
+			(arc
+				(start -9 48)
+				(mid -7.585786 47.414214)
+				(end -7 46)
+			)
+			(arc
+				(start -7 46)
+				(mid -3 42)
+				(end 1 46)
+			)
+			(arc
+				(start 1 46)
+				(mid 1.585786 47.414214)
+				(end 3 48)
+			)
+		)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill none)
+		(layer "User.1")
+		(uuid "428c71dd-ff25-40b5-bcde-9a2c38ce19f7")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "54ebcfa5-af29-47af-b3a9-209b8f1d1240")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -51 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ec6bc445-9adc-4fc9-8799-0aad52ddfff7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+)
