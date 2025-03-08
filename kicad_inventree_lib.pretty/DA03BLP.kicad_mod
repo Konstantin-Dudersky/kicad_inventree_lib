@@ -1,7 +1,7 @@
 (footprint "DA03BLP"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "DA-03BLP")
 	(tags "Switch")
@@ -25,18 +25,6 @@
 			(font
 				(size 1.27 1.27)
 				(thickness 0.254)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "a53f61e5-4605-456a-8690-35de71c6ac29")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
 			)
 		)
 	)
@@ -503,12 +491,12 @@
 		(uuid "e79ea3cf-d252-4780-a878-90f68ce07550")
 	)
 	(pad "4" thru_hole circle
-		(at 0 2.54)
+		(at 5.08 2.54)
 		(size 1.5 1.5)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "80f60aba-4996-401c-8e9e-98ce8850fe04")
+		(uuid "7b28600d-2c91-4064-aac1-3ade10ab5a57")
 	)
 	(pad "5" thru_hole circle
 		(at 2.54 2.54)
@@ -519,13 +507,14 @@
 		(uuid "219714a1-a6cf-4350-92ef-5c21343f6ef7")
 	)
 	(pad "6" thru_hole circle
-		(at 5.08 2.54)
+		(at 0 2.54)
 		(size 1.5 1.5)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "7b28600d-2c91-4064-aac1-3ade10ab5a57")
+		(uuid "80f60aba-4996-401c-8e9e-98ce8850fe04")
 	)
+	(embedded_fonts no)
 	(model "${kicad_inventree_lib}/kicad_inventree_lib.3dshapes/DA-03BLP.stp"
 		(offset
 			(xyz 0 -5.919999987 4.999999925)

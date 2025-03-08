@@ -1,7 +1,7 @@
 (footprint "BS-12-A1AJ002-F"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -5.08 0)
@@ -20,19 +20,6 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "30eca295-5992-4ccd-9756-0bae593e35a5")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "750e5137-1127-4d61-a9c3-d9c6e22a063f")
 		(effects
 			(font
 				(size 1 1)
@@ -108,6 +95,39 @@
 		(layer "F.SilkS")
 		(uuid "acb1dfa6-e708-4814-809b-19bb250273e9")
 	)
+	(fp_circle
+		(center -5.55 4.55)
+		(end -5.05 4.55)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "f5971f3c-dd99-4830-86d5-508aacb82cfd")
+	)
+	(fp_circle
+		(center 0 14.15)
+		(end 0.5 14.15)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "1c71d607-981d-4e0f-a024-05eba8d55e86")
+	)
+	(fp_circle
+		(center 5.55 4.55)
+		(end 6.05 4.55)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "bc2f942b-c009-46e0-941c-e75f3399a39b")
+	)
 	(fp_text user "${REFERENCE}"
 		(at 2.54 -11.43 0)
 		(unlocked yes)
@@ -119,27 +139,6 @@
 				(thickness 0.15)
 			)
 		)
-	)
-	(pad "" np_thru_hole circle
-		(at -5.55 4.546)
-		(size 1 1)
-		(drill 1)
-		(layers "*.Mask")
-		(uuid "15ea84ff-0ab4-429f-ae95-50b324b7e2ae")
-	)
-	(pad "" np_thru_hole circle
-		(at 0 14.159)
-		(size 1 1)
-		(drill 1)
-		(layers "*.Mask")
-		(uuid "760302c4-444d-41ea-9029-65238e213308")
-	)
-	(pad "" np_thru_hole circle
-		(at 5.55 4.546)
-		(size 1 1)
-		(drill 1)
-		(layers "*.Mask")
-		(uuid "7965ba7b-1dc1-430f-a5ff-1284d49df232")
 	)
 	(pad "1" thru_hole circle
 		(at 0 0)
@@ -157,4 +156,5 @@
 		(remove_unused_layers no)
 		(uuid "0cf33518-e1a4-4b41-80ce-2e671920e425")
 	)
+	(embedded_fonts no)
 )

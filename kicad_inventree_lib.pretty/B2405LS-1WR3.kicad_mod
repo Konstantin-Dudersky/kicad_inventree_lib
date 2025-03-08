@@ -1,7 +1,7 @@
 (footprint "B2405LS-1WR3"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -2.54 0)
@@ -20,19 +20,6 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "13c2a4bd-e559-4cd7-a03d-e1a9fe972278")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at -7.62 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "67ce99b9-60ac-4446-bbe6-14627d8c10d3")
 		(effects
 			(font
 				(size 1 1)
@@ -67,16 +54,75 @@
 		)
 	)
 	(attr through_hole)
-	(fp_rect
+	(fp_line
 		(start -9.83 -0.9)
+		(end -9.83 6.15)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "dfb511bb-c3d2-4d56-8761-b4420856d3a5")
+	)
+	(fp_line
+		(start -9.83 -0.9)
+		(end -8.5 -0.9)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "ba6a60df-ff95-4235-9175-4cb9e666111f")
+	)
+	(fp_line
+		(start -9.83 6.15)
 		(end 9.82 6.15)
 		(stroke
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
 		(layer "F.SilkS")
-		(uuid "592c4f85-b36b-4eab-988a-3b06a4e15a1d")
+		(uuid "50ba9666-00bc-4799-b007-04d5e0548afd")
+	)
+	(fp_line
+		(start -4.1 -0.9)
+		(end -0.9 -0.9)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "74b21fcf-70c3-4b82-9d03-7f642aa92da6")
+	)
+	(fp_line
+		(start 0.9 -0.9)
+		(end 4.2 -0.9)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "cc68dbe0-13e3-45b4-8d2b-fcb1911ff883")
+	)
+	(fp_line
+		(start 9.82 -0.9)
+		(end 6 -0.9)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "7efbd7aa-e795-4706-a241-a3bf8cdc6732")
+	)
+	(fp_line
+		(start 9.82 6.15)
+		(end 9.82 -0.9)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "a3c8f1ae-3dc5-4b2b-9d0b-4cada837e4de")
 	)
 	(fp_rect
 		(start -9.83 -0.9)
@@ -85,7 +131,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "6304e9e7-c3e8-46f0-b789-b59895d21307")
 	)
@@ -133,6 +179,7 @@
 		(remove_unused_layers no)
 		(uuid "46c512ea-912f-4cff-9854-dbc653311ff0")
 	)
+	(embedded_fonts no)
 	(model "${kicad_inventree_lib}/kicad_inventree_lib.3dshapes/IB2405LS-1W.stp"
 		(offset
 			(xyz -7.6 0 0)
