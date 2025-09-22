@@ -1,7 +1,7 @@
 (footprint "IRM-20-24_MWU"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(tags "IRM-20-24 ")
 	(property "Reference" "REF**"
@@ -24,18 +24,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "7b3c5dbe-5a31-45b2-b894-c4696ca340c0")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -203,7 +191,7 @@
 			(width 0.0254)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "6125b6d6-7db6-4400-9beb-73ae24565d7c")
 	)
@@ -263,17 +251,7 @@
 		(remove_unused_layers no)
 		(uuid "1626913f-30a2-4ec1-8d40-a16dadfc9b63")
 	)
-	(model "${kicad_inventree_lib}/kicad_inventree_lib.3dshapes/IRM-20-24_MWU.step"
-		(offset
-			(xyz 0 0 0)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
-			(xyz 0 0 0)
-		)
-	)
+	(embedded_fonts no)
 	(model "${kicad_inventree_lib}/kicad_inventree_lib.3dshapes/IRM-20-24_MWU.stp"
 		(offset
 			(xyz 22 -10.5 0)
