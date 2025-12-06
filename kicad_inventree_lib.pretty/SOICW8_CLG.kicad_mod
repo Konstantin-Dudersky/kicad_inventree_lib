@@ -5,7 +5,7 @@
 	(layer "F.Cu")
 	(tags "CA-IS3721HG ")
 	(property "Reference" "REF**"
-		(at 0 0 0)
+		(at 0 -4 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "d3862931-6378-4c9d-ae55-3ae61060177f")
@@ -583,18 +583,6 @@
 		)
 		(layer "F.Fab")
 		(uuid "d2d07b87-cf3f-479c-a303-900e1cf7a4f3")
-	)
-	(fp_text user "*"
-		(at -5.6388 -3.6068 0)
-		(unlocked yes)
-		(layer "F.SilkS")
-		(uuid "1bdb2737-8406-4525-943f-edb4e07ba084")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
 	)
 	(fp_text user "*"
 		(at -5.6388 -3.6068 0)

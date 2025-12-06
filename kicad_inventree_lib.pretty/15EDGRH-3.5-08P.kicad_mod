@@ -1,13 +1,13 @@
-(footprint "15EDGRC-3.5-03P"
+(footprint "15EDGRH-3.5-08P"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 4 -2 0)
+		(at 15.5 -13 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "5722ea59-11e5-4587-9606-6d9428cd6414")
+		(uuid "4ecbfca1-2eb5-4f04-824d-14cc75cf5734")
 		(effects
 			(font
 				(size 1 1)
@@ -15,11 +15,11 @@
 			)
 		)
 	)
-	(property "Value" "15EDGRC-3.5-03P"
-		(at 7 9 0)
+	(property "Value" "15EDGRH-3.5-08P"
+		(at 5 9.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "9c7abe23-7748-4924-b23a-da0fb84d3e96")
+		(uuid "968a8ae8-e8fc-4e54-815c-831c132a170f")
 		(effects
 			(font
 				(size 1 1)
@@ -28,11 +28,11 @@
 		)
 	)
 	(property "Datasheet" ""
-		(at 0 0 0)
+		(at 0 -12.7 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "900f5397-a566-4539-89a7-4aaf31ac482d")
+		(uuid "4ab1a78c-da3e-4973-b28c-ee0d8f36d01e")
 		(effects
 			(font
 				(size 1 1)
@@ -41,11 +41,11 @@
 		)
 	)
 	(property "Description" ""
-		(at 0 0 0)
+		(at 0 -12.7 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "49d0f6b1-7eef-47ee-abc5-674aec98d5dc")
+		(uuid "340993f3-ece9-4abe-93dc-85f27b7e5aae")
 		(effects
 			(font
 				(size 1 1)
@@ -55,48 +55,48 @@
 	)
 	(attr through_hole)
 	(fp_line
-		(start -2.15 -1.2)
-		(end 9.15 -1.2)
+		(start -2.45 -13.95)
+		(end 12.95 -13.95)
 		(stroke
 			(width 0.1)
-			(type default)
+			(type solid)
 		)
 		(layer "F.SilkS")
 		(uuid "b9bdf785-66ca-4ccc-90a8-642d6ddb6994")
 	)
 	(fp_line
-		(start -2.15 3.4)
-		(end -2.15 -1.2)
+		(start -2.45 1)
+		(end -2.45 -13.95)
 		(stroke
 			(width 0.1)
-			(type default)
+			(type solid)
 		)
 		(layer "F.SilkS")
 		(uuid "9fd7ee4b-d428-4699-8f70-4072ece41fe3")
 	)
 	(fp_line
-		(start 9.15 -1.2)
-		(end 9.15 3.4)
+		(start 12.95 -13.9)
+		(end 12.95 1)
 		(stroke
 			(width 0.1)
-			(type default)
+			(type solid)
 		)
 		(layer "F.SilkS")
 		(uuid "5967ec45-460b-41f9-81f4-164f21b15328")
 	)
 	(fp_rect
-		(start -2.15 -1.2)
-		(end 9.15 8)
+		(start -2.45 -13.95)
+		(end 12.95 7.85)
 		(stroke
 			(width 0.1)
-			(type default)
+			(type solid)
 		)
 		(fill no)
 		(layer "F.Fab")
 		(uuid "e2fdd919-97ce-4b7a-a39f-1d6c2cd8fef3")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 7 9 0)
+		(at 5 9.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "e88be338-a9bd-4ec4-855b-bc354662ee5c")
@@ -113,7 +113,7 @@
 		(drill 1.4)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "41282cb3-6dad-415a-9b89-505697805a23")
+		(uuid "cae04525-426a-471a-9ed5-38d67e1bcbc5")
 	)
 	(pad "2" thru_hole circle
 		(at 3.5 0)
@@ -121,7 +121,7 @@
 		(drill 1.4)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "c5e524d2-62ad-45c8-96a1-f1862c722afb")
+		(uuid "b36fba2e-fd54-4109-a23b-8293fe5e16de")
 	)
 	(pad "3" thru_hole circle
 		(at 7 0)
@@ -129,18 +129,58 @@
 		(drill 1.4)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(uuid "22c0fc49-664a-4b88-9960-3c0e971d6cab")
+	)
+	(pad "4" thru_hole circle
+		(at 10.5 0)
+		(size 2.2 2.2)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a8eb7557-9974-4221-a3a4-2fc758130201")
+	)
+	(pad "5" thru_hole circle
+		(at 0 -12.7)
+		(size 2.2 2.2)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "41282cb3-6dad-415a-9b89-505697805a23")
+	)
+	(pad "6" thru_hole circle
+		(at 3.5 -12.7)
+		(size 2.2 2.2)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c5e524d2-62ad-45c8-96a1-f1862c722afb")
+	)
+	(pad "7" thru_hole circle
+		(at 7 -12.7)
+		(size 2.2 2.2)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
 		(uuid "5af03673-5630-4051-9d47-7e2c1b347f43")
 	)
+	(pad "8" thru_hole circle
+		(at 10.5 -12.7)
+		(size 2.2 2.2)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "5da2d2e7-0ad4-4df4-a161-81251adcaef0")
+	)
 	(embedded_fonts no)
-	(model "${kicad_inventree_lib}/kicad_inventree_lib.3dshapes/15EDGRC-3.5-03P-1Y-00A&Z(H).stp"
+	(model "${kicad_inventree_lib}/kicad_inventree_lib.3dshapes/15EDGRH-3.5-08P-1Y-00A&Z(H).stp"
 		(offset
-			(xyz 22.3 -160.8 0)
+			(xyz 1.75 -7.9 23)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz -90 -0 -180)
+			(xyz -0 -0 -90)
 		)
 	)
 )
