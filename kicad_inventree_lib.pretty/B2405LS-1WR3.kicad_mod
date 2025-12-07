@@ -4,14 +4,14 @@
 	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 0 -2.54 0)
+		(at 0 -2 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "383fdd93-fb93-4447-8ccc-fba8e012f692")
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.1)
+				(thickness 0.16)
 			)
 		)
 	)
@@ -58,8 +58,8 @@
 		(start -9.83 -0.9)
 		(end -9.83 6.15)
 		(stroke
-			(width 0.1)
-			(type default)
+			(width 0.16)
+			(type solid)
 		)
 		(layer "F.SilkS")
 		(uuid "dfb511bb-c3d2-4d56-8761-b4420856d3a5")
@@ -68,8 +68,8 @@
 		(start -9.83 -0.9)
 		(end -8.5 -0.9)
 		(stroke
-			(width 0.1)
-			(type default)
+			(width 0.16)
+			(type solid)
 		)
 		(layer "F.SilkS")
 		(uuid "ba6a60df-ff95-4235-9175-4cb9e666111f")
@@ -78,8 +78,8 @@
 		(start -9.83 6.15)
 		(end 9.82 6.15)
 		(stroke
-			(width 0.1)
-			(type default)
+			(width 0.16)
+			(type solid)
 		)
 		(layer "F.SilkS")
 		(uuid "50ba9666-00bc-4799-b007-04d5e0548afd")
@@ -88,8 +88,8 @@
 		(start -4.1 -0.9)
 		(end -0.9 -0.9)
 		(stroke
-			(width 0.1)
-			(type default)
+			(width 0.16)
+			(type solid)
 		)
 		(layer "F.SilkS")
 		(uuid "74b21fcf-70c3-4b82-9d03-7f642aa92da6")
@@ -98,8 +98,8 @@
 		(start 0.9 -0.9)
 		(end 4.2 -0.9)
 		(stroke
-			(width 0.1)
-			(type default)
+			(width 0.16)
+			(type solid)
 		)
 		(layer "F.SilkS")
 		(uuid "cc68dbe0-13e3-45b4-8d2b-fcb1911ff883")
@@ -108,8 +108,8 @@
 		(start 9.82 -0.9)
 		(end 6 -0.9)
 		(stroke
-			(width 0.1)
-			(type default)
+			(width 0.16)
+			(type solid)
 		)
 		(layer "F.SilkS")
 		(uuid "7efbd7aa-e795-4706-a241-a3bf8cdc6732")
@@ -118,8 +118,8 @@
 		(start 9.82 6.15)
 		(end 9.82 -0.9)
 		(stroke
-			(width 0.1)
-			(type default)
+			(width 0.16)
+			(type solid)
 		)
 		(layer "F.SilkS")
 		(uuid "a3c8f1ae-3dc5-4b2b-9d0b-4cada837e4de")

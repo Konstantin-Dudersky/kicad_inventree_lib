@@ -1,7 +1,7 @@
 (footprint "K7805-2000R3"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "K7805-2000R3-1")
 	(tags "Connector")
@@ -25,18 +25,6 @@
 			(font
 				(size 1.27 1.27)
 				(thickness 0.254)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "5ed6a5e2-5efd-4c43-9a07-997110ba265e")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
 			)
 		)
 	)
@@ -89,7 +77,7 @@
 		(start -3.21 -2.15)
 		(end 8.29 -2.15)
 		(stroke
-			(width 0.1)
+			(width 0.15)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -99,7 +87,7 @@
 		(start -3.21 6.85)
 		(end -3.21 -2.15)
 		(stroke
-			(width 0.1)
+			(width 0.15)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -109,7 +97,7 @@
 		(start 8.29 -2.15)
 		(end 8.29 6.85)
 		(stroke
-			(width 0.1)
+			(width 0.15)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -119,7 +107,7 @@
 		(start 8.29 6.85)
 		(end -3.21 6.85)
 		(stroke
-			(width 0.1)
+			(width 0.15)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -262,6 +250,7 @@
 		(remove_unused_layers no)
 		(uuid "d29b3e2e-22cc-4851-b485-05bc5020c54e")
 	)
+	(embedded_fonts no)
 	(model "${kicad_inventree_lib}/kicad_inventree_lib.3dshapes/K7805-2000R3.stp"
 		(offset
 			(xyz 0 0 0)

@@ -6,13 +6,13 @@
 	(descr "AFA07-S20FCA-00-2")
 	(tags "Connector")
 	(property "Reference" "J**"
-		(at 0 -1.374 0)
+		(at 15 2 0)
 		(layer "F.SilkS")
 		(uuid "34e6f45c-79ca-4636-aa29-aec67b277c2a")
 		(effects
 			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
+				(size 1 1)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -64,20 +64,10 @@
 		(uuid "509e2b5e-5a18-4bf8-8287-bb1f1c134ed9")
 	)
 	(fp_line
-		(start -13.5 0.802)
-		(end -13.5 2.65)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "815b0ec3-48bd-418c-8eda-cd5e195247ae")
-	)
-	(fp_line
 		(start -13.5 2.65)
 		(end -13.5 0.802)
 		(stroke
-			(width 0.1)
+			(width 0.15)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -102,16 +92,6 @@
 		)
 		(layer "F.SilkS")
 		(uuid "f03c662b-5590-4541-85ae-b60cbd9315bc")
-	)
-	(fp_line
-		(start -13.5 2.65)
-		(end 13.5 2.65)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "2ad5af84-fa57-4233-b97e-632806b38012")
 	)
 	(fp_line
 		(start -9.7 -5.348)
@@ -154,20 +134,10 @@
 		(uuid "39b04299-8983-4347-a6ea-426d1831cf58")
 	)
 	(fp_line
-		(start 13.5 0.802)
-		(end 13.5 2.65)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "68e084df-705b-4277-a34d-c652c69a4c45")
-	)
-	(fp_line
 		(start 13.5 2.65)
 		(end -13.5 2.65)
 		(stroke
-			(width 0.1)
+			(width 0.15)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -177,7 +147,7 @@
 		(start 13.5 2.65)
 		(end 13.5 0.802)
 		(stroke
-			(width 0.1)
+			(width 0.15)
 			(type solid)
 		)
 		(layer "F.SilkS")
