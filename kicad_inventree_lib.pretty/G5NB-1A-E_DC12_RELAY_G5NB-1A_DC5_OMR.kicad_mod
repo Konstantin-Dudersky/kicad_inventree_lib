@@ -1,7 +1,7 @@
 (footprint "G5NB-1A-E_DC12_RELAY_G5NB-1A_DC5_OMR"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at -1.83 2.51 0)
@@ -10,7 +10,7 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
+				(thickness 0.16)
 			)
 		)
 	)
@@ -21,19 +21,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" "G5NB-1A-E_DC12_RELAY_G5NB-1A_DC5_OMR"
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "93c88e08-c768-46f1-89e3-0f0d19b22e51")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -69,7 +56,7 @@
 		(start -5.977 -19.477)
 		(end -5.977 -16.51)
 		(stroke
-			(width 0.1524)
+			(width 0.16)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -79,7 +66,7 @@
 		(start -5.977 -8.89)
 		(end -5.977 1.177)
 		(stroke
-			(width 0.1524)
+			(width 0.16)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -87,19 +74,19 @@
 	)
 	(fp_line
 		(start -5.977 1.177)
-		(end -5.2734 1.177)
+		(end -5.3734 1.177)
 		(stroke
-			(width 0.1524)
+			(width 0.16)
 			(type solid)
 		)
 		(layer "F.SilkS")
 		(uuid "2ce1fc4e-20bc-4e0e-8f51-98edfb573992")
 	)
 	(fp_line
-		(start -4.1266 1.177)
+		(start -4.0266 1.177)
 		(end 1.277 1.177)
 		(stroke
-			(width 0.1524)
+			(width 0.16)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -109,7 +96,7 @@
 		(start 1.277 -19.477)
 		(end -5.977 -19.477)
 		(stroke
-			(width 0.1524)
+			(width 0.16)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -119,7 +106,7 @@
 		(start 1.277 -19.477)
 		(end 1.277 -16.51)
 		(stroke
-			(width 0.1524)
+			(width 0.16)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -129,7 +116,7 @@
 		(start 1.277 1.177)
 		(end 1.277 -8.89)
 		(stroke
-			(width 0.1524)
+			(width 0.16)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -222,6 +209,7 @@
 		(solder_mask_margin 0.102)
 		(uuid "effd3f1a-c845-44db-9174-2a3cce407d74")
 	)
+	(embedded_fonts no)
 	(model "${KICAD_3RD_PARTY}/NextPCB.3dshapes/G5NB-1A-E_DC12.step"
 		(offset
 			(xyz -4.7 18.3 0)

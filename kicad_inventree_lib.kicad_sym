@@ -178,7 +178,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "kicad_inventree_lib:C_0805_2012Metric"
 			(at 0.9652 -3.81 0)
 			(effects
 				(font
@@ -20178,7 +20178,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "kicad_inventree_lib:D_SOD-123"
 			(at 0 0 0)
 			(effects
 				(font
@@ -22847,7 +22847,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "kicad_inventree_lib:SOIC16-WBW_CLG-M"
+		(property "Footprint" "kicad_inventree_lib:SOIC16-WBW_CLG"
 			(at 0 -40.64 0)
 			(effects
 				(font
@@ -26211,7 +26211,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SSOP-20_3.9x8.7mm_P0.635mm"
+		(property "Footprint" "kicad_inventree_lib:SSOP-20_3.9x8.7mm_P0.635mm"
 			(at 0 -40.64 0)
 			(effects
 				(font
@@ -27705,7 +27705,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "kicad_inventree_lib:C_0603_1608Metric"
 			(at 0.9652 -3.81 0)
 			(effects
 				(font
@@ -29037,7 +29037,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "kicad_inventree_lib:C_0805_2012Metric"
 			(at 0.9652 -3.81 0)
 			(effects
 				(font
@@ -30670,7 +30670,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "kicad_inventree_lib:C_0603_1608Metric"
 			(at 0 -15.24 0)
 			(effects
 				(font
@@ -31262,7 +31262,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "kicad_inventree_lib:C_1206_3216Metric"
 			(at 0.9652 -3.81 0)
 			(effects
 				(font
@@ -32002,7 +32002,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_2220_5750Metric"
+		(property "Footprint" "kicad_inventree_lib:C_2220_5750Metric"
 			(at 0.9652 -3.81 0)
 			(effects
 				(font
@@ -32446,7 +32446,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1812_4532Metric"
+		(property "Footprint" "kicad_inventree_lib:C_1812_4532Metric"
 			(at 0.9652 -3.81 0)
 			(effects
 				(font
@@ -36758,7 +36758,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm"
+		(property "Footprint" "kicad_inventree_lib:SOIC-16W_7.5x10.3mm_P1.27mm"
 			(at 0 -15.24 0)
 			(effects
 				(font
@@ -62394,7 +62394,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:TSSOP-28_4.4x9.7mm_P0.65mm"
+		(property "Footprint" "kicad_inventree_lib:TSSOP-28_4.4x9.7mm_P0.65mm"
 			(at 0.635 -24.765 0)
 			(effects
 				(font
@@ -89190,7 +89190,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "kicad_inventree_lib:R_0603_1608Metric"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -89321,7 +89321,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
+		(property "Footprint" "kicad_inventree_lib:R_Array_Convex_4x0603"
 			(at -2.032 0 90)
 			(effects
 				(font
@@ -90287,7 +90287,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "kicad_inventree_lib:R_0603_1608Metric"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -90798,7 +90798,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "kicad_inventree_lib:R_0603_1608Metric"
 			(at 0 -17.78 0)
 			(effects
 				(font
@@ -91440,7 +91440,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
+		(property "Footprint" "kicad_inventree_lib:R_Array_Convex_4x0603"
 			(at -2.032 0 90)
 			(effects
 				(font
@@ -92769,7 +92769,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "kicad_inventree_lib:R_0603_1608Metric"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -95564,7 +95564,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kicad_inventree_lib:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+		(property "Footprint" "kicad_inventree_lib:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm"
 			(at 0 0 0)
 			(effects
 				(font
@@ -95747,7 +95747,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kicad_inventree_lib:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm"
+		(property "Footprint" "kicad_inventree_lib:SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm"
 			(at 0 0 0)
 			(effects
 				(font

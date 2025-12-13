@@ -12,7 +12,7 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
+				(thickness 0.16)
 			)
 		)
 	)
@@ -55,11 +55,22 @@
 	)
 	(zone_connect 1)
 	(attr exclude_from_pos_files exclude_from_bom allow_soldermask_bridges)
+	(fp_rect
+		(start -0.15 -0.75)
+		(end 0.15 0.75)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Mask")
+		(uuid "12f41e31-ca25-414e-863a-4b2eb635b7be")
+	)
 	(fp_line
 		(start -1.4 0.3)
 		(end -1.4 -0.3)
 		(stroke
-			(width 0.12)
+			(width 0.16)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -69,7 +80,7 @@
 		(start -0.7 -1)
 		(end 0.7 -1)
 		(stroke
-			(width 0.12)
+			(width 0.16)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -79,7 +90,7 @@
 		(start 0.7 1)
 		(end -0.7 1)
 		(stroke
-			(width 0.12)
+			(width 0.16)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -89,7 +100,7 @@
 		(start 1.4 -0.3)
 		(end 1.4 0.3)
 		(stroke
-			(width 0.12)
+			(width 0.16)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -100,7 +111,7 @@
 		(mid -1.194975 -0.794975)
 		(end -0.7 -1)
 		(stroke
-			(width 0.12)
+			(width 0.16)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -111,7 +122,7 @@
 		(mid -1.194975 0.794975)
 		(end -1.4 0.3)
 		(stroke
-			(width 0.12)
+			(width 0.16)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -122,7 +133,7 @@
 		(mid 1.194975 -0.794975)
 		(end 1.4 -0.3)
 		(stroke
-			(width 0.12)
+			(width 0.16)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -133,7 +144,7 @@
 		(mid 1.194975 0.794975)
 		(end 0.7 1)
 		(stroke
-			(width 0.12)
+			(width 0.16)
 			(type solid)
 		)
 		(layer "F.SilkS")

@@ -54,6 +54,7 @@
 			)
 		)
 	)
+	(solder_mask_margin 0.01)
 	(attr allow_missing_courtyard)
 	(fp_circle
 		(center -12 -45)

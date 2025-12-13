@@ -1,7 +1,7 @@
 (footprint "DBV6-M"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(tags "SN74LVC2G14DBVR ")
 	(property "Reference" "REF**"
@@ -12,7 +12,7 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
+				(thickness 0.16)
 			)
 		)
 	)
@@ -24,18 +24,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "f47a7b56-2133-4333-a246-fc19f2f94abd")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -69,7 +57,7 @@
 		(start -1.0033 1.651)
 		(end 1.0033 1.651)
 		(stroke
-			(width 0.1524)
+			(width 0.16)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -79,7 +67,7 @@
 		(start 1.0033 -1.651)
 		(end -1.0033 -1.651)
 		(stroke
-			(width 0.1524)
+			(width 0.16)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -497,7 +485,7 @@
 		(uuid "bbc0c5ff-ac60-482a-8b86-cf200b178cc8")
 	)
 	(fp_text user "*"
-		(at -1.72085 -2.6518 0)
+		(at -1.72085 -2.4 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "6a6bbc4f-7fcd-44e1-8555-ff80f322986c")
@@ -546,39 +534,40 @@
 	(pad "1" smd rect
 		(at -1.46685 -0.950001)
 		(size 1.1811 0.5588)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "b3d768bb-fdc7-40f9-a674-dc9268d1c7fb")
 	)
 	(pad "2" smd rect
 		(at -1.46685 0)
 		(size 1.1811 0.5588)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "57b615dd-6ef2-47f6-9639-66cfc81be025")
 	)
 	(pad "3" smd rect
 		(at -1.46685 0.950001)
 		(size 1.1811 0.5588)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "1e4efe82-e0d3-4e87-b64a-c7dccb8b6bf8")
 	)
 	(pad "4" smd rect
 		(at 1.46685 0.950001)
 		(size 1.1811 0.5588)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "b1211a8b-b54b-4c3c-9c44-aa0664ace2b9")
 	)
 	(pad "5" smd rect
 		(at 1.46685 0)
 		(size 1.1811 0.5588)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "7c10ce78-9a55-4cfd-b62a-bb3ca20e3157")
 	)
 	(pad "6" smd rect
 		(at 1.46685 -0.950001)
 		(size 1.1811 0.5588)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "a2dfb31e-8154-44f9-9a08-c0a4f59e1112")
 	)
+	(embedded_fonts no)
 	(model "${kicad_inventree_lib}/kicad_inventree_lib.3dshapes/DBV0006A.stp"
 		(offset
 			(xyz 0 0 0)
