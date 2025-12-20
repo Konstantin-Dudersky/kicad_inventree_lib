@@ -1,13 +1,14 @@
 (footprint "5117"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "5117-1")
 	(tags "Undefined or Miscellaneous")
 	(property "Reference" "U**"
 		(at 0 0 0)
 		(layer "F.SilkS")
+		(hide yes)
 		(uuid "4ab3a1c3-8c32-4fe5-a782-3e431a096754")
 		(effects
 			(font
@@ -25,18 +26,6 @@
 			(font
 				(size 1.27 1.27)
 				(thickness 0.254)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "e92ec5eb-1c0d-44a6-81a5-1906c07f5aaa")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
 			)
 		)
 	)
@@ -90,7 +79,7 @@
 		(mid 0 -1.27)
 		(end 1.27 0)
 		(stroke
-			(width 0.1)
+			(width 0.16)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -101,7 +90,7 @@
 		(mid 0 1.27)
 		(end -1.27 0)
 		(stroke
-			(width 0.1)
+			(width 0.16)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -208,6 +197,7 @@
 		(remove_unused_layers no)
 		(uuid "a1e22148-e4f9-4bf6-8f84-4e824e28e220")
 	)
+	(embedded_fonts no)
 	(model "${kicad_inventree_lib}/kicad_inventree_lib.3dshapes/5117.stp"
 		(offset
 			(xyz 0.05999999776 -0.01999999925 1.489999987)
