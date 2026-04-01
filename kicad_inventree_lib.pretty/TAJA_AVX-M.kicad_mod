@@ -1,7 +1,7 @@
 (footprint "TAJA_AVX-M"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(tags "TAJA106M016RNJ ")
 	(property "Reference" "REF**"
@@ -11,7 +11,7 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
+				(thickness 0.16)
 			)
 		)
 	)
@@ -23,18 +23,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "c1fb7635-fcea-46be-8ab3-3db1148ba786")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -78,7 +66,7 @@
 		(start -0.17649 1.0287)
 		(end 0.17649 1.0287)
 		(stroke
-			(width 0.1524)
+			(width 0.16)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -88,7 +76,7 @@
 		(start 0.17649 -1.0287)
 		(end -0.17649 -1.0287)
 		(stroke
-			(width 0.1524)
+			(width 0.16)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -261,7 +249,7 @@
 			(width 0.0254)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "65ad614c-c90c-42cb-b08a-9fb698e74b63")
 	)
@@ -280,13 +268,13 @@
 	(pad "1" smd rect
 		(at -1.086663 0 90)
 		(size 1.397 1.738275)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "2a3a5c7b-60a2-48da-a1c6-7adf84aa66c6")
 	)
 	(pad "2" smd rect
 		(at 1.086663 0 90)
 		(size 1.397 1.738275)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "691327ed-9763-4155-8d7f-3b4cf1461e6d")
 	)
 	(zone
@@ -306,6 +294,10 @@
 			(pads allowed)
 			(copperpour not_allowed)
 			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
 		)
 		(fill
 			(thermal_gap 0.508)
@@ -335,6 +327,10 @@
 			(copperpour not_allowed)
 			(footprints allowed)
 		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
 		(fill
 			(thermal_gap 0.508)
 			(thermal_bridge_width 0.508)
@@ -363,6 +359,10 @@
 			(copperpour not_allowed)
 			(footprints allowed)
 		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
 		(fill
 			(thermal_gap 0.508)
 			(thermal_bridge_width 0.508)
@@ -373,6 +373,7 @@
 			)
 		)
 	)
+	(embedded_fonts no)
 	(model "${kicad_inventree_lib}/kicad_inventree_lib.3dshapes/TAJA_AVX.step"
 		(offset
 			(xyz 0 0 0)

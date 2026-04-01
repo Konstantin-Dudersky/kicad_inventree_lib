@@ -225,8 +225,8 @@
 		(uuid "d19d55d9-654d-4a6e-8bd0-8a415c529cdd")
 	)
 	(pad "5" smd rect
-		(at 2.599944 -0.021108)
-		(size 0.4064 1.75)
+		(at 2.599944 -0.396108)
+		(size 0.4064 1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "99811d7e-8e5a-4978-8f95-91fe0145df81")
 	)

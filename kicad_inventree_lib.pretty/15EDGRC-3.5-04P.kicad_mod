@@ -1,10 +1,10 @@
-(footprint "15EDGRC-3.5-03P"
+(footprint "15EDGRC-3.5-04P"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 3.5 -2.5 0)
+		(at 5.25 -2.5 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "5722ea59-11e5-4587-9606-6d9428cd6414")
@@ -15,7 +15,7 @@
 			)
 		)
 	)
-	(property "Value" "15EDGRC-3.5-03P"
+	(property "Value" "15EDGRC-3.5-04P"
 		(at 7 9 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -57,7 +57,7 @@
 	(attr through_hole)
 	(fp_line
 		(start -2.15 -1.4)
-		(end 9.15 -1.4)
+		(end 12.65 -1.4)
 		(stroke
 			(width 0.16)
 			(type solid)
@@ -76,8 +76,8 @@
 		(uuid "9fd7ee4b-d428-4699-8f70-4072ece41fe3")
 	)
 	(fp_line
-		(start 9.15 -1.4)
-		(end 9.15 3.4)
+		(start 12.65 -1.4)
+		(end 12.65 3.4)
 		(stroke
 			(width 0.16)
 			(type solid)
@@ -87,10 +87,10 @@
 	)
 	(fp_rect
 		(start -2.15 -1.2)
-		(end 9.15 8)
+		(end 12.65 8)
 		(stroke
 			(width 0.1)
-			(type default)
+			(type solid)
 		)
 		(fill no)
 		(layer "F.Fab")
@@ -165,10 +165,29 @@
 		)
 		(uuid "5af03673-5630-4051-9d47-7e2c1b347f43")
 	)
+	(pad "4" thru_hole circle
+		(at 10.5 0)
+		(size 2.2 2.2)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(teardrops
+			(best_length_ratio 0.5)
+			(max_length 1)
+			(best_width_ratio 1)
+			(max_width 2)
+			(curved_edges no)
+			(filter_ratio 0.9)
+			(enabled yes)
+			(allow_two_segments yes)
+			(prefer_zone_connections yes)
+		)
+		(uuid "5da2d2e7-0ad4-4df4-a161-81251adcaef0")
+	)
 	(embedded_fonts no)
-	(model "${kicad_inventree_lib}/kicad_inventree_lib.3dshapes/15EDGRC-3.5-03P-1Y-00A&Z(H).stp"
+	(model "${kicad_inventree_lib}/kicad_inventree_lib.3dshapes/15EDGRC-3.5-04P-1Y-00A&Z(H).stp"
 		(offset
-			(xyz 22.3 -160.8 0)
+			(xyz 22.3 -142.8 0)
 		)
 		(scale
 			(xyz 1 1 1)

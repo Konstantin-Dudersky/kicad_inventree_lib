@@ -1,7 +1,7 @@
 (footprint "MountingHole_M2"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Mounting Hole 2.2mm, no annular, M2")
 	(tags "mounting hole 2.2mm no annular m2")
@@ -24,19 +24,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "e7faf42e-db85-409b-80f8-a5b74d7629d8")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -70,14 +57,14 @@
 	(attr exclude_from_pos_files exclude_from_bom)
 	(fp_circle
 		(center 0 0)
-		(end 1.1 0)
+		(end 2.2 0)
 		(stroke
-			(width 0.05)
-			(type default)
+			(width 0.15)
+			(type solid)
 		)
-		(fill none)
-		(layer "Edge.Cuts")
-		(uuid "e0f12d10-070e-47a3-b124-a7d3536e62f3")
+		(fill no)
+		(layer "Cmts.User")
+		(uuid "359e94bf-d92a-4962-b52b-743803c8033e")
 	)
 	(fp_circle
 		(center 0 0)
@@ -86,9 +73,9 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
-		(uuid "1045a914-6900-4873-af0b-93437f83494d")
+		(uuid "d695da61-c3c6-4c8d-bc72-4d87bded1133")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
@@ -101,4 +88,15 @@
 			)
 		)
 	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 4.4 4.4)
+		(drill 2.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.01)
+		(zone_connect 2)
+		(uuid "25c84c07-d3e6-44be-8c62-060265f3ddd7")
+	)
+	(embedded_fonts no)
 )
