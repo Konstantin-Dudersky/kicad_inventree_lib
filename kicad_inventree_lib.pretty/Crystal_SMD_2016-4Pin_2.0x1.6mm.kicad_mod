@@ -7,7 +7,7 @@
 	(property "Reference" "REF**"
 		(at 0 -2 0)
 		(layer "F.SilkS")
-		(uuid "9d4b55b3-bc60-4b41-b06b-02e9b7ecb1cf")
+		(uuid "6a5e96a8-c42c-4e34-b95a-3841342fa31d")
 		(effects
 			(font
 				(size 1 1)
@@ -18,7 +18,7 @@
 	(property "Value" "Crystal_SMD_2016-4Pin_2.0x1.6mm"
 		(at 0 2 0)
 		(layer "F.Fab")
-		(uuid "bd7385f2-ea6b-425d-9103-986df64dc99c")
+		(uuid "5a9d5604-aaff-498d-89c1-11f72c2cf7c3")
 		(effects
 			(font
 				(size 1 1)
@@ -30,7 +30,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "83518ed3-b8c9-420a-b04c-d6b4c4967f87")
+		(uuid "149091b7-533a-436c-a40e-04f88c965422")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -41,7 +41,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "4a855045-ada1-436f-b08d-244662acc82e")
+		(uuid "2fe87b5c-b76a-4f39-8162-3063c7c80dbc")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -52,7 +52,7 @@
 		(at 0 0 0)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "128dfe8a-41f3-4b0c-b974-afaddf876f3e")
+		(uuid "740f1dfa-604b-46cb-b110-c8c471a5ccf5")
 		(effects
 			(font
 				(size 1 1)
@@ -70,7 +70,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "447f9246-d0db-4b3a-9be9-7ddb216302fe")
+		(uuid "1f537576-097a-4b97-ac34-9c2ce127a74a")
 	)
 	(fp_line
 		(start -1.41 1.21)
@@ -80,7 +80,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "aeab2dd4-15d1-4deb-a647-7e7efbd20b88")
+		(uuid "d7d9e10e-b1f3-4a2e-bc08-1277a7c3aa66")
 	)
 	(fp_rect
 		(start -1.5 -1.3)
@@ -91,7 +91,7 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "996a9777-9509-45f1-bed5-1c5f64aab061")
+		(uuid "7fdf4e76-9520-4877-a0d4-5715e6f688f6")
 	)
 	(fp_poly
 		(pts
@@ -103,12 +103,12 @@
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "9ef086c4-bd8d-4d48-9164-a07593029f7c")
+		(uuid "fe454ae7-b8d0-4eaf-a9ca-612a1e4bbc19")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
 		(layer "F.Fab")
-		(uuid "04f29a77-a8c5-4957-bb80-9201b541c331")
+		(uuid "d96bcb64-f25f-487d-b37b-fed31d0adffa")
 		(effects
 			(font
 				(size 0.5 0.5)
@@ -121,28 +121,72 @@
 		(size 0.9 0.8)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
-		(uuid "d8ebc2b2-c943-48f0-a25a-9dcbc789b9b9")
+		(teardrops
+			(best_length_ratio 0.5)
+			(max_length 1)
+			(best_width_ratio 1)
+			(max_width 2)
+			(curved_edges no)
+			(filter_ratio 0.9)
+			(enabled yes)
+			(allow_two_segments yes)
+			(prefer_zone_connections yes)
+		)
+		(uuid "1baade1a-3ea9-4db9-9db4-560738bf17cd")
 	)
 	(pad "2" smd roundrect
 		(at 0.7 0.55)
 		(size 0.9 0.8)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
-		(uuid "af196b29-d9cc-4fb7-9e48-28e4f1c6c2e5")
+		(teardrops
+			(best_length_ratio 0.5)
+			(max_length 1)
+			(best_width_ratio 1)
+			(max_width 2)
+			(curved_edges no)
+			(filter_ratio 0.9)
+			(enabled yes)
+			(allow_two_segments yes)
+			(prefer_zone_connections yes)
+		)
+		(uuid "ba36387b-fc96-47ef-b374-51dfe76000eb")
 	)
 	(pad "3" smd roundrect
 		(at 0.7 -0.55)
 		(size 0.9 0.8)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
-		(uuid "60d5fb82-1ee5-41b6-81c5-598dbe3267e8")
+		(teardrops
+			(best_length_ratio 0.5)
+			(max_length 1)
+			(best_width_ratio 1)
+			(max_width 2)
+			(curved_edges no)
+			(filter_ratio 0.9)
+			(enabled yes)
+			(allow_two_segments yes)
+			(prefer_zone_connections yes)
+		)
+		(uuid "6cd1e1b2-6b49-475b-bee5-51272d7b70f8")
 	)
 	(pad "4" smd roundrect
 		(at -0.7 -0.55)
 		(size 0.9 0.8)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
-		(uuid "f50b426d-c3af-4987-8923-e07adc6e32de")
+		(teardrops
+			(best_length_ratio 0.5)
+			(max_length 1)
+			(best_width_ratio 1)
+			(max_width 2)
+			(curved_edges no)
+			(filter_ratio 0.9)
+			(enabled yes)
+			(allow_two_segments yes)
+			(prefer_zone_connections yes)
+		)
+		(uuid "c02545eb-62c9-4c87-8d15-bb6a5fc301b2")
 	)
 	(embedded_fonts no)
 	(model "${KICAD10_3DMODEL_DIR}/Crystal.3dshapes/Crystal_SMD_2016-4Pin_2.0x1.6mm.step"
